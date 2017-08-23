@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/feicuinews.css"/>
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script src="js/handlebars-v4.0.10.js"></script>
+		<script id="paging-template" type="text/x-handlebars-template">
+			<ul>
+				{{#each this}}
+				<li data-id={{index}} 
+					{{#if cur}} class="cur" {{/if}}
+					{{#if clickable}} class="clickable" {{/if}}>
+					{{{text}}}
+				</li>
+				{{/each}}
+			</ul>
+		</script>
+	</head>
+	<body>
+		<!--头部-->
+		<!--<div id="header"></div>-->
+		<header class="bigContainer">
+			<div class="head_wrap clearfix">
+				<div class="logo left clearfix">
+					<img id="logo" src="img/headAndFoot/logo.png"/>
+					<img src="img/headAndFoot/logo_word.png"/>
+				</div>
+				<div class="head_right right">
+					<div class="location clearfix">
+						<p class="right">028-61303585</p>
+						<p class="right">北京地区<span>[切换]</span></p>
+					</div>
+					
+					<ul class="clearfix nav">
+						<li class="navLi"><a href="index.html" class="active">首页</a></li>
+						<li class="navLi"><a href="aboutFeicui.html">关于我们</a></li>
+						<li class="lession_hover navLi" style="position: relative;">
+							<a href="javascript:;">课程介绍</a>
+							<ul class="sub_nav">
+								
+							</ul>
+						</li>
+						<li class="navLi"><a href="teacher.html">师资团队</a></li>
+						<li class="outstandingStudent_hover navLi " style="position: relative";>
+							<a href="outstandingStudents.html">优秀学员</a>
+							<ul class="studentSub_nav">
+								<li><a href="workweel.html">学员作品</a></li>
+							</ul>
+						</li>
+						<li class="navLi"><a href="cooperation.html">合作企业</a></li>
+						<li class="navLi"><a href="index.html#baoming">在线报名</a></li>
+						<li class="navLi"><a href="class.html">开班信息</a></li>
+						<li class="navLi"><a href="feicuinews.html">翡翠新闻</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<!--标题-->
+		<div id="titleWrap"> 
+			<div class="title">
+				<h1>翡翠新闻</h1>
+				<p>Feicui Journalism</p>
+			</div>
+		</div>
+		
+	    <!--内容-->
+		<div id="contentWrap">
+			<div class="content  clearfix">
+				
+				<!--左导航-->
+				<div class="nav_left left">
+					<div class="nav_list nav_active">
+						官方新闻
+					</div>
+					<div class="nav_list">
+						活动公告
+					</div>
+				</div>
+				
+				<!--右边新闻-->
+				<div class="content_right left">
+					<!--新闻-->
+					<div class="news_wrap news_active">
+						
+						<div class="news_title">
+							<div class="title_left left">
+								官方新闻
+							</div>
+							<div class="title_nav right">
+								<a href="index.html">首页</a> > <a href="#">翡翠新闻</a> > <a href="#">官方新闻</a>
+							</div>
+						</div>
+						
+						<div class="news">
+							<!--新闻列表-->
+							<div class="news_list">
+								<ul><!--加载新闻--> </ul>
+							</div>
+							
+							<!--分页-->
+							<div class="paging_wrap">
+	 							<!--分页组件-->
+								<div class="paging" id="paging">
+									
+								</div>
+							</div>
+
+						</div>
+					</div>
+					
+					<!--活动公告-->
+					<div class="news_wrap ">
+						
+						<div class="news_title">
+							<div class="title_left left">
+								活动公告
+							</div>
+							<div class="title_nav right">
+								<a href="#">首页</a> > <a href="#">翡翠新闻</a> > <a href="#">活动公告</a>
+							</div>
+						</div>
+					</div>
+					
+					<!--新闻详情-->
+					<div class="news_wrap news_descript">
+						
+						<div class="news_title">
+							<div class="title_left left">
+								官方新闻
+							</div>
+							<div class="title_nav right">
+								<a href="#">首页</a> > <a href="#">翡翠新闻</a> > <a href="#">活动公告</a>
+							</div>
+						</div>
+						<div class="news_article">
+							
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		<!--尾部-->
+		<!--footer-->
+		<footer class="bigContainer">
+			<div class="wrap">
+				<div class="footer_logo clearfix">
+					<img src="img/headAndFoot/logo.png"/>
+					<img src="img/headAndFoot/logo_word.png"/>
+				</div>
+				<h2 class="footerPhone"></h2>
+				<h5 class="footerAddr"></h5>
+			</div>
+			<div class="wrap clearfix">
+				<ul class="left">
+					<li>关于我们</li>
+					<li>课程研发</li>
+					<li>教学模式</li>
+					<li>师资团队</li>
+					<li>就业保障</li>
+					<li>学院成果</li>
+				</ul>
+				
+				<ul class="left footerCourse">
+					<li class= "courseSet">课程设置</li>
+					
+				</ul>
+				<ul class="left">
+					<li>就业信息</li>
+					<li>就业报告</li>
+					<li>UI设计专业</li>
+					<li>游戏开发专业</li>
+					<li>Web前端专业</li>
+					<li>程序开发专业</li>
+					<li>就业大盘点</li>
+				</ul>
+				
+				<ul class="left">
+					<li>学员作品</li>
+					<li>UI设计</li>
+					<li>PHP</li>
+					<li>Web前端</li>
+					<li>游戏模型</li>
+					<li>JAVA大数据</li>
+					<li>Android</li>
+					<li>网络营销</li>
+				</ul>
+				
+				<ul class="left">
+					<li>服务专区</li>
+					<li>我要报名</li>
+					<li>付款方式</li>
+					<li>我要贷款</li>
+					<li>我要试听</li>
+					<li>乘车路线</li>
+				</ul>
+				
+				<dl class="right">
+					<dt><img src="img/headAndFoot/erweima.png"/></dt>
+					<dd>翡翠教育官方微信</dd>
+				</dl>
+			</div>
+		</footer>
+		<div class="copy_right bigContainer">
+			<p class="wrap">
+				copyright &copy; 2005-2020 翡翠教育科技有限公司 All Rights Reserved 京ICP备12036804号-23
+			</p>
+		</div>
+		
+		<script src="js/feicuinews.js"></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>

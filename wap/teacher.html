@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>师资团队</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="description" content=""/>
+		<meta name="keywords" content=""/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/teacher.css"/>
+		<link rel="stylesheet" type="text/css" href="../front/css/swiper-3.4.2.min.css"/>
+		<script>
+	 	(function (doc, win) {
+			  var docEl = doc.documentElement,
+			    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+				recalc = function () {
+			  var clientWidth = docEl.clientWidth;
+			  if (!clientWidth) return;
+			  // if (clientWidth>800){
+			  // 	docEl.style.fontSize = 800 / 11.25 + 'px';
+			  // }
+		     /*如果设计图为640就除以6.4 如果为750 就除以7.5*/
+		     /* 使用时设计图除以100 mate标签的缩放值为1 字体在电脑上看不出来*/
+			  else{docEl.style.fontSize =clientWidth / 7.5+ 'px';}
+			};
+			  if (!doc.addEventListener) return;
+			  win.addEventListener(resizeEvt, recalc, false);
+			  doc.addEventListener('DOMContentLoaded', recalc, false);
+		})(document, window);
+ </script>
+	</head>
+	<body>
+		<div id="header"></div>
+		
+		<div class="banner">
+			<img src="img/teacher/banner01.png"/>
+		</div>
+		<div class="teacher01 clear">
+			<img src="img/teacher/teacher01.png"/>
+			<div class="wraper left clear part1">
+				<img  src="img/teacher/pho_1.png"/>
+				<img src="img/teacher/chuandao.png"/>
+				<img src="img/teacher/shouye.png"/>
+				<img src="img/teacher/jiehuo.png"/>
+			</div>
+		</div>
+		
+		<div class="part2">
+			<img src="img/teacher/part2.png"/>
+		</div>
+		
+		
+		<div class="big">
+			<div class="part3">
+				<img src="img/teacher/teacher03.png"/>
+			</div>
+			<div class="swiper-container mySwiper01">
+				<div class="swiper-slide none">            <!--clone模板-->
+		        	<img />
+		        	<p class="name"></p>
+		        	<img src="img/teacher/fiveStars.png"/>
+		        	<p class="des"></p>
+		        </div>
+			    <div class="swiper-wrapper">
+			        <!--后台获取数据-->
+			    </div>
+			   
+			</div>
+		</div>
+		
+		<div id="footer"></div>
+		<script src="lib/js/jquery-3.0.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../front/js/swiper-3.4.2.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/teacher.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

@@ -1,0 +1,173 @@
+[
+	{
+		"title": "网站首页",
+		"isurl": true,
+		"redirecturl": "../front/index.html",
+		"iconfont": "glyphicon glyphicon-fire",
+		"subtitle": []
+	},
+	{
+		"title": "json文件",
+		"isurl": true,
+		"redirecturl": "makejson.html",
+		"iconfont": "glyphicon glyphicon-info-sign",
+		"subtitle": []
+	},
+	{
+		"title": "SEO字段",
+		"isurl": true,
+		"redirecturl": "seo.html",
+		"iconfont": "glyphicon glyphicon-leaf",
+		"subtitle": []
+	},
+	{
+		"title": "首轮播图",
+		"isurl": false,
+		"redirecturl": "",
+		"iconfont": "glyphicon glyphicon-hand-right",
+		"subtitle": [
+			{
+				"title": "轮播图",
+				"isurl": true,
+				"redirecturl": "lbt.html",
+				"iconfont": "",
+				"subtitle": []
+			}
+		]
+	},
+	{
+		"title": "课程管理",
+		"isurl": false,
+		"redirecturl": "",
+		"iconfont": "glyphicon glyphicon-tasks",
+		"subtitle": [
+			{
+				"title": "课程管理",
+				"isurl": true,
+				"redirecturl": "kcgl.html",
+				"iconfont": "",
+				"subtitle": []
+			}
+		]
+	},
+	{
+		"title": "新闻资讯",
+		"isurl": false,
+		"redirecturl": "",
+		"iconfont": "glyphicon glyphicon-piggy-bank",
+		"subtitle": [
+			{
+				"title": "新闻资讯",
+				"isurl": true,
+				"redirecturl": "xwzx.html",
+				"iconfont": "",
+				"subtitle": []
+			}
+		]
+	},
+	{
+		"title": "开班信息",
+		"isurl": false,
+		"redirecturl": "",
+		"iconfont": "glyphicon glyphicon-pushpin",
+		"subtitle": [
+			{
+				"title": "开班信息",
+				"isurl": true,
+				"redirecturl": "kbxx.html",
+				"iconfont": "",
+				"subtitle": []
+			}
+		]
+	},
+	{
+		"title": "老师管理",
+		"isurl": false,
+		"redirecturl": "",
+		"iconfont": "glyphicon glyphicon-align-left",
+		"subtitle": [
+			{
+				"title": "老师管理",
+				"isurl": true,
+				"redirecturl": "lsgl.html",
+				"iconfont": "",
+				"subtitle": []
+			}
+		]
+	},
+	{
+		"title": "明星学员",
+		"isurl": false,
+		"redirecturl": "",
+		"iconfont": "glyphicon glyphicon-tree-conifer",
+		"subtitle": [
+			{
+				"title": "学员信息",
+				"isurl": true,
+				"redirecturl": "xyxx.html",
+				"iconfont": "",
+				"subtitle": []
+			}
+		]
+	},
+	{
+		"title": "学员作品",
+		"isurl": false,
+		"redirecturl": "",
+		"iconfont": "glyphicon glyphicon-book",
+		"subtitle": [
+			{
+				"title": "学员作品",
+				"isurl": true,
+				"redirecturl": "xyzp.html",
+				"iconfont": "",
+				"subtitle": []
+			}
+		]
+	},
+	{
+		"title": "合作企业",
+		"isurl": false,
+		"redirecturl": "",
+		"iconfont": "glyphicon glyphicon-link",
+		"subtitle": [
+			{
+				"title": "合作企业",
+				"isurl": true,
+				"redirecturl": "hzqy.html",
+				"iconfont": "",
+				"subtitle": []
+			}
+		]
+	},
+	{
+		"title": "网站设置",
+		"isurl": false,
+		"redirecturl": "",
+		"iconfont": "glyphicon glyphicon-globe",
+		"subtitle": [
+			{
+				"title": "网站设置",
+				"isurl": true,
+				"redirecturl": "wzsz.html",
+				"iconfont": "",
+				"subtitle": []
+			}
+		]
+	},
+	{
+		"title": "报名管理",
+		"isurl": false,
+		"redirecturl": "",
+		"iconfont": "glyphicon glyphicon-calendar",
+		"subtitle": [
+			{
+				"title": "报名管理",
+				"isurl": true,
+				"redirecturl": "bmgl.html",
+				"iconfont": "",
+				"subtitle": []
+			}
+		]
+	}
+]

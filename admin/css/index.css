@@ -1,0 +1,140 @@
+[genuitec-file-id="wc1-3"],[genuitec-lp-path="/feicuiwb/src/main/webapp/admin/css/index.css"],[genuitec-lp-enabled=false]{
+  /* for codelive */
+}
+
+[genuitec-file-id="wc1-2"],[genuitec-lp-path="/feicuiwb/src/main/webapp/admin/css/index.css"],[genuitec-lp-enabled=false]{
+  /* for codelive */
+}
+
+[genuitec-file-id="wc1-2"],[genuitec-lp-path="/feicuiwb/src/main/webapp/admin/css/index.css"],[genuitec-lp-enabled=false]{
+  /* for codelive */
+}
+
+[genuitec-file-id="wc1-2"],[genuitec-lp-path="/feicuiwb/src/main/webapp/admin/css/index.css"],[genuitec-lp-enabled=false]{
+  /* for codelive */
+}
+
+[genuitec-file-id="wc1-2"],[genuitec-lp-path="/feicuiwb/src/main/webapp/admin/css/index.css"],[genuitec-lp-enabled=false]{
+  /* for codelive */
+}
+
+html, body {
+	height: 100%;
+} 
+.top {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	background: #7E8C8D;
+	z-index: 1;
+}
+
+.top .title {
+	height: 50px;
+	line-height: 50px;
+	margin-left: 50px;
+	color: white;
+}
+
+.top .loginout {
+	position: absolute;
+	right: 3%;
+	top: 0;
+	line-height: 50px;
+}
+
+.content-wrapper {
+	width: 100%;
+	height: 100%;
+	margin-top: 50px;
+	overflow: scroll;
+}
+
+.left {
+	float: left;
+	width: 10%;
+	height: 100%;
+	overflow: scroll;
+	background: white;
+	box-sizing: border-box;
+	border-right: 1px solid darkgray;
+}
+
+.right {
+	float: right;
+	width: 90%;
+	height: 100%;
+	overflow: scroll;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	background: black;
+}
+
+
+
+.left-wrapper{
+	text-align:center; 
+	width:100%; 
+	padding-top:10px;
+}
+
+.div2 {
+	height:40px; 
+	line-height:40px;
+	cursor: pointer; 
+	font-size:13px; 
+	font-weight: 700;
+	position:relative;
+	border-bottom:#ccc 1px dotted;
+}
+
+.divone {
+	height:40px; 
+	line-height:40px;
+	cursor: pointer; 
+	font-size:13px; 
+	
+	position:relative;
+	border-bottom:#ccc 1px dotted;
+	
+}
+
+.divone a {
+	color: black;
+	font-weight: 700;
+	/*text-decoration: underline;*/
+}
+
+.kbxx1 {
+	position: absolute; 
+	left: 40px; 
+	top: 10px; 
+	height: 20px;
+	width: 20px;
+	background:url(../images/1.png);
+}
+
+.div3 {
+	display: none;
+	cursor:pointer; 
+	font-size:13px;
+}
+.div3 ul{
+	margin:0;
+	padding:0;
+}
+.div3 li{
+	height:30px; 
+	line-height:30px; 
+	list-style:none; 
+	border-bottom:#ccc 1px dotted; 
+	text-align:center;
+}

@@ -1,0 +1,97 @@
+.none{
+	display: none;
+}
+.wraper{
+	width: 7.1rem;
+	margin: 0 auto;
+}
+.title h1{
+	font-size: .32rem;
+	text-align: center;
+	color: #434343;
+	margin: .3rem auto .1rem;
+}
+.title h6{
+	text-align: center;
+	color: #6d6d6d;
+	margin: 0 auto .43rem;
+}
+.new_class h2{
+	color: #01B257;
+	background: url(../img/classInfo/img_1.png) no-repeat center;
+	text-align: center;
+	margin-bottom: .2rem;
+}
+.classlist li{
+	float: left;
+	margin: .17rem 0;
+	width: 3.4rem;
+	background: url(../img/classInfo/img_2.png) no-repeat left center;
+}
+.classlist li:nth-child(2n){
+	margin-right: .3rem;
+}
+
+.classlist li h4{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 2.35rem;
+	padding-left: .85rem;
+	color: #474747;
+}
+.classlist li p{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 2.55rem;
+	padding-left: .85rem;
+	color: #5a5a5a;
+	font-size: .18rem;
+}
+
+.boom_class{
+	/*overflow: hidden;
+	text-overflow: ellipsis;
+	height: 5.2rem;
+	white-space: nowrap;*/
+	width: 5.18rem;
+	margin: 0 auto .3rem;
+}
+.boom_class li{
+	background: url(../img/classInfo/boomClass.png) no-repeat top center;
+	background-size: 100%;
+	float: left;
+	width: .74rem;
+}
+.boom_class li h5{
+	text-align: center;
+	padding:.18rem 0 0 .1rem;
+	float: left;
+	color: #01b257;
+	width: .2rem;
+}
+.boom_class li p{
+	text-align: center;
+	padding:.35rem 0 0 .11rem;
+	width: .16rem;
+	float: left;
+	font-size: .14rem;
+	color: #FFFEFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

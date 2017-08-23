@@ -1,0 +1,413 @@
+
+/**banner图**/
+.webBanner{
+	width:100%;
+	height:auto;
+}
+/**标题**/
+.welfareTitle{
+	height:0.80rem;
+	line-height:0.8rem;
+	text-align:center;
+	font-size:0.38rem;
+	font-weight: 100;
+	color:#1b1b1b;
+	
+}
+/*********6大福利下边的图标+文字**********/
+.welfareList{
+	margin-top:0.07rem;
+	overflow: hidden;
+}
+.welfareList li{
+	width:1.55rem;
+	height:1rem;
+	float:left;
+	text-align:center;
+}
+.welfareList li img{
+	width:0.52rem;
+	height:0.52rem;
+	margin:0 auto;
+}
+.welfareList li:nth-child(3n+1){
+	margin-right:1.2rem;
+}
+.welfareList li:nth-child(3n+2){
+	margin-right:1.2rem;
+}
+/**文字**/
+.welfareList h6{
+	padding-top:0.1rem;
+	font-weight:normal;
+}
+/*******************学完能做什么*********************/
+.whatToDo{
+	width:100%;
+	background: #292929;
+}
+.whatToDo .whatToDoTitle{
+	width:100%;
+	background: #292929;
+	text-align:center;
+	color:#fff;
+}
+/**主标题**/
+.whatToDoMainTitle{
+	font-size:0.38rem;
+	height:0.52rem;
+	line-height:0.52rem;
+	padding-top:0.09rem;
+}
+/**副标题**/
+.whatToDoSubTitle{
+	font-size:0.2rem;
+	height:0.36rem;
+	line-height:0.36rem;
+	padding-bottom:0.09rem;
+}
+/**list**/
+.whatToDoList{
+	overflow: hidden;
+	width:100%;
+}
+
+.whatToDoList li{
+	width:3.74rem;
+	height:1.2rem;
+	float:left;
+	
+}
+.whatToDoList li img{
+	width:3.74rem;
+	height:auto;
+	
+}
+.whatToDoList .whatToDoText .textInnerContainer{
+	padding-left:0.12rem;
+	color:#fff;
+	
+}
+.whatToDoList .whatToDoText .textInnerContainerRight{
+	padding-right:0.12rem
+}
+.whatToDoTextRight{
+	text-align: right;
+}
+/**主标题**/
+.whatToDoList .whatToDoText .whatToDoSub{
+	font-size:0.28rem;
+	line-height:0.4rem;
+	padding-top: 0.06rem;
+	font-weight:400;
+}
+/**副标题**/
+.whatToDoList .whatToDoText .whatToDoDes{
+	font-size:0.2rem;
+	line-height:0.3rem;
+	font-weight:400;
+}
+
+/*******************前端带来的前景********************/
+.salary{
+	width:100%;
+}
+.salary .salaryTitleContainer{
+	width:100%;
+	text-align:center;
+	color:#191919;
+	background: #f8f8f8;
+}
+/**主标题**/
+.salary .salaryTitleContainer .salaryMainTitle{
+	font-size:0.38rem;
+	font-weight:400;
+	line-height:0.66rem;
+	padding-top:0.16rem;
+}
+/**副标题**/
+.salary .salaryTitleContainer .salarySubTitle{
+	font-size:0.2rem;
+	font-weight:100;
+	line-height:0.25rem;
+}
+/*****/
+.barGraphContainer{
+	width:100%;
+	background: #f8f8f8;
+	padding-bottom:0.18rem;
+}
+.salary .barGraph{
+	display:block;
+	width:7.1rem;
+	margin:0 auto;
+	
+}
+/**折线图**/
+.salary .lineChartContainer{
+	width:100%;
+	
+}
+.salary .lineChartContainer{
+	width:100%;
+	
+}
+.salary .lineChart{
+	width:100%;
+	height:auto;
+}
+/***********************课程全新升级，点亮加薪亮点***********************/
+.upgradeClass{
+	width:100%;
+	
+}
+.upgradeClass .upgradeClassTitleContainer{
+	width:100%;
+	text-align:center;
+}
+.upgradeClass .upgradeMainTitle{
+	font-size:0.38rem;
+	color:#1b1b1b;
+	line-height:0.53rem;
+	padding-top:0.10rem;
+}
+.upgradeClass .upgradeSubTitle{
+	font-size:0.24rem;
+	color:#32323e;
+	line-height:0.4rem;
+}
+/**表格***/
+/**表格1**/
+.upgradeClass .pcEndPage{
+	width:100%;
+	/*height:4.01rem;*/
+    border-top:0.01rem solid #1de4a5;
+   /* border-bottom:0.01rem solid #1de4a5;*/
+    overflow:hidden;
+}
+.upgradeClass .pcEndPage .pcEndSubject{
+	width:1.55rem;
+	height:3.53rem;
+	background: #1de4a5;
+	float:left;
+	font-size:0.28rem;
+	color:#fff;
+	text-align:center;
+	line-height:0.48rem;
+	padding-top:0.46rem;
+	
+} 
+.upgradeClass .pcEndContent{
+	width:5.90rem;
+	float:left;
+	color:#666666;
+	font-size:0.24rem;
+}
+.upgradeClass .pcEndContent .pcEndEditor{
+	height:0.39rem;
+	border-bottom:0.01rem solid #1de4a5;
+	padding-left:0.16rem;
+	
+}
+.pcEndSkills .pcEndSkillsContent{
+	width:4.11rem;
+	height:3.59rem;
+	border-right:0.01rem solid #1de4a5;
+	float:left;
+}
+.pcEndSkillPic{
+	width:1.7rem;
+	height:3.59rem;
+	float:left;
+}
+.pcEndSkillPic img{
+	display:block;
+	width:1.48rem;
+	height:auto;
+	margin:0 auto;
+	margin-top:0.06rem;
+}
+.pcEndSkills  .pcEndSkillsContent li{
+	height:0.39rem;
+	border-bottom:0.01rem solid #1de4a5;
+	font-size:0.24rem;
+	padding-left:0.16rem;
+}
+.pcEndSkills  .pcEndSkillsContent li:last-of-type{
+	border-bottom:0.01rem solid transparent;
+
+}
+/**表格2**/
+.upgradeClass .htmlCss{
+	width:100%;
+	/*height:4.01rem;*/
+    border-top:0.01rem solid #1de4a5;
+    border-bottom:0.01rem solid #1de4a5;
+    overflow:hidden;
+}
+/**左侧标题**/
+.upgradeClass .htmlCss .htmlCssSubject{
+	width:1.55rem;
+	height:3rem;
+	background: #11aa79;
+	float:left;
+	font-size:0.28rem;
+	color:#fff;
+	text-align:center;
+	line-height:0.48rem;
+	padding-top:1rem;
+}
+/**右侧内容***/ 
+.upgradeClass .htmlCssContent{
+	width:5.90rem;
+	float:left;
+	color:#666666;
+	font-size:0.24rem;
+	overflow: hidden;
+}
+
+.htmlCssSkills .htmlCssSkillsContent{
+	width:4.11rem;
+	
+	border-right:0.01rem solid #1de4a5;
+	float:left;
+}
+/**右侧图片**/
+.htmlCssSkillsPic{
+	width:1.7rem;
+	height:3.59rem;
+	float:left;
+}
+.htmlCssSkillsPic img{
+	display:block;
+	width:1.48rem;
+	height:auto;
+	margin:0 auto;
+	margin-top:0.06rem;
+}
+/**技术内容的li**/
+.htmlCssContent  .htmlCssSkillsContent li{
+	height:0.39rem;
+	border-bottom:0.01rem solid #1de4a5;
+	font-size:0.24rem;
+	padding-left:0.16rem;
+	
+}
+.htmlCssContent  .htmlCssSkillsContent li:last-of-type{
+	border-bottom:0.01rem solid transparent;
+}
+/**表格3**/
+.upgradeClass .webApp{
+	width:100%;
+	/*height:4.01rem;*/
+   /* border-top:0.01rem solid #1de4a5;*/
+    border-bottom:0.01rem solid #1de4a5;
+    overflow:hidden;
+}
+/**左侧标题**/
+.upgradeClass .webApp .webAppSubject{
+	width:1.55rem;
+	height:2.86rem;
+	background: #044a34;
+	float:left;
+	font-size:0.28rem;
+	color:#fff;
+	text-align:center;
+	line-height:0.48rem;
+	padding-top:0.35rem;
+}
+/**右侧内容***/ 
+.upgradeClass .webAppContent{
+	width:5.90rem;
+	float:left;
+	color:#666666;
+	font-size:0.24rem;
+	overflow: hidden;
+}
+
+.webAppSkills .webAppSkillsContent{
+	width:4.11rem;
+	
+	border-right:0.01rem solid #1de4a5;
+	float:left;
+}
+/**右侧图片**/
+.webAppSkillsPic{
+	width:1.7rem;
+	height:3.19rem;
+	float:left;
+}
+.webAppSkillsPic img{
+	display:block;
+	width:1.24rem;
+	height:auto;
+	margin:0 auto;
+	margin-top:0.06rem;
+}
+/**技术内容的li**/
+.webAppContent  .webAppSkillsContent li{
+	height:0.39rem;
+	border-bottom:0.01rem solid #1de4a5;
+	font-size:0.24rem;
+	padding-left:0.16rem;
+	
+}
+.webAppContent  .webAppSkillsContent li:last-of-type{
+	border-bottom:0.01rem solid transparent;
+}
+/************************星火燎原，提升全行业Web工程师职业素养*************************/
+.webClassRegisterContainer{
+	width:100%;
+	height:3.69rem;
+}
+.webClassRegisterContainer .bgPic{
+	width:100%;
+	height:2.71rem;
+	background: url(../img/web/registerPic.png);
+	background-size:contain;
+}
+.connectionWays{
+	width:100%;
+	height:0.98rem;
+	background:#1d1d1d;
+}
+.connectionWays li{
+	width:2.48rem;
+	height:0.98rem;
+	float:left;
+	background: #1d1d1d;
+}s
+.connectionWays li:nth-child(1){
+	border-right:0.01rem solid #000
+}
+.connectionWays li:nth-child(2){
+	border-right:0.01rem solid #000
+}
+.connectionWays img{
+	display:block;
+	margin:0 auto;
+	margin-top:0.06rem;
+	
+}
+.connectionWays  .computer{
+	width:0.65rem;
+	height:0.5rem;
+}
+.connectionWays  .phone{
+	width:0.53rem;
+	height:0.53rem;
+}
+.connectionWays  .online{
+	width:0.49rem;
+	height:0.5rem;
+}
+.connectionWays h3{
+	font-size:0.22rem;
+	height:0.4rem;
+	line-height:0.40rem;
+	color:#fff;
+	font-weight:300;
+	text-align:center;
+	
+}
+

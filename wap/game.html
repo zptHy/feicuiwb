@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>游戏</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="Keywords" content=""/>
+		<meta name="Description" content=""/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/game.css"/>
+		<script>
+		 	(function (doc, win) {
+			    var docEl = doc.documentElement,
+			        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function () {
+					  var clientWidth = docEl.clientWidth;
+					  if (!clientWidth) return;
+					  // if (clientWidth>800){
+					  // 	docEl.style.fontSize = 800 / 11.25 + 'px';
+					  // }
+				     /*如果设计图为640就除以6.4 如果为750 就除以7.5*/
+				     /* 使用时设计图除以100 mate标签的缩放值为1 字体在电脑上看不出来*/
+					  else{docEl.style.fontSize =clientWidth / 7.5 + 'px';} 
+					  
+					};
+			    if (!doc.addEventListener) return;
+			    win.addEventListener(resizeEvt, recalc, false);
+			    doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+ 		</script>
+	</head>
+	<body>
+		
+		<div id="header" style="width: 100%; height: 0.88rem; background: rgba(0,0,0,.5);"> </div>
+		
+		<!--banner-->
+		<div class="img_wrap">
+			<img src="img/u3d/img_banner.png"/>
+			
+		</div>
+		
+		<!--学员福利-->
+		<div class="six_wrap clearFix">
+			<h3 class="six_title">
+				6大学员专享福利
+			</h3>
+			<div class="icons">
+				<div class="boxSize left">
+					申请试听
+				</div>
+				<div class="boxSize left">
+					免费试学
+				</div>
+				<div class="boxSize left">
+					先学习, 后付费
+				</div>
+				<div class="boxSize left">
+					免息贷款
+				</div>
+				<div class="boxSize left">
+					就业服务
+				</div>
+				<div class="boxSize left">
+					免费重修
+				</div>
+			</div>
+			
+			
+		</div>
+		
+		<!--游戏玩家到行业精英-->
+		<div class="design_wrap clearFix">
+			<div class="design_title">
+				<h2>从游戏玩家到行业精英的华丽变身!</h2>
+				<h3>相信吗？经过几个月的学习，你也可以赋予他生命！</h3>
+			</div>
+			<div class="model_wrap">
+				<div class="num1_pic left">
+					<h4> 盖伦原画设计 </h4>
+				</div>
+				<div class="num2_pic right">
+					<h4>《英雄联盟》中盖伦模型设计</h4>
+				</div>
+				
+				<div class="num3_pic left">
+					<h4>《英雄联盟》中盖伦模型设计</h4>
+				</div>
+				
+			</div>
+		</div>
+		
+		<!--游戏设计钱景-->
+		<div class="money_wrap">
+			<div class="money_bg">
+				<h2 class="money_title">
+					游戏设计行业，钱景不可限量
+				</h2>
+			</div>
+			<h3>课程设置含金量性价比高，投资回报快</h3>
+			<h4>打造高级游戏设计专业人才</h4>
+		</div>
+		
+		<!--游戏课程-->
+		<div class="course_wrap">
+			<div class="course_title">
+				游戏动作设计师班
+			</div>
+			<!--1-->
+			<div class="course_item boxSize">
+				<div class="course_img left">
+					<img src="img/u3d/img_11.png"/>
+				</div>
+				<div class="course_content boxSize">
+					<h2>软件基础</h2>
+					<p>&diams;造型基础训练</p>
+					<p>&diams;场景道具制作</p>
+					<p>通过对PS 以及3ds Max 的基础学习，了解3D 软件与2D 软件在游戏制作中的实际应用。</p>
+				</div>
+			</div>
+			
+			<!--2-->
+			<div class="course_item boxSize">
+				<div class="course_img left">
+					<img src="img/u3d/img_10.png"/>
+				</div>
+				<div class="course_content boxSize">
+					<h2>场景模型</h2>
+					<p>&diams;亭子模型</p>
+					<p>&diams;场景道具制作</p>
+					<p>学习制作简单场景建筑，了解游戏场景的制作流程，对游戏场景模型的制作在整体上有个概念和把握。</p>
+				</div>
+			</div>
+			
+			<!--3-->
+			<div class="course_item boxSize">
+				<div class="course_img left">
+					<img src="img/u3d/img_9.png"/>
+				</div>
+				<div class="course_content boxSize">
+					<h2>"软件基础、场景模型"对应学习目标</h2>
+					<p>《剑侠情缘网络版叁》（简称《剑网3》）是由金山软件西山居开发，金山运营的3D 武侠角色扮演网游。在这绚丽的武侠世界中，带有浓重中国风的塔状模型是不可缺少的作方法。</p>
+				</div>
+			</div>
+			
+			<!--4-->
+			<div class="course_item boxSize">
+				<div class="course_img left">
+					<img src="img/u3d/img_8.png"/>
+				</div>
+				<div class="course_content boxSize">
+					<h2>PS强化</h2>
+					<p>&diams;色彩基础</p>
+					<p>&diams; ps 绘画表现</p>
+					<p>通过对色彩基础理论的学习，掌握色彩的基本构成与原理，并且对于将来的职业发展道路有很大的影响。     </p>
+				</div>
+			</div>
+			
+			<!--5-->
+			<div class="course_item boxSize">
+				<div class="course_img left">
+					<img src="img/u3d/img_7.png"/>
+				</div>
+				<div class="course_content boxSize">
+					<h2>贴图质感训练</h2>
+					<p>&diams;木制道具制作</p>
+					<p>&diams;金属道具制作</p>
+					<p>&diams;石头道具制作</p>
+					<p>对不同质感道具的制作学习,理解不同质感表现的要领。</p>
+				</div>
+			</div>
+			
+			<!--6-->
+			<div class="course_item boxSize">
+				<div class="course_img left">
+					<img src="img/u3d/img_5.png"/>
+				</div>
+				<div class="course_content boxSize">
+					<h2>"贴图绘制、质感训练"对应学习目标</h2>
+					<p>《部落冲突》是为芬兰游戏公司Supercell 所推出的策略类手机游戏，于2012 年8 月2 日在苹果应用商店发布。《部落冲突》、《卡通农场》以及《海岛奇兵》三款手游帮助该公司在2014 年获得了17 亿美元的收入。</p>
+				</div>
+			</div>
+			
+			<!--7-->
+			<div class="course_item boxSize">
+				<div class="course_img left">
+					<img src="img/u3d/img_6.png"/>
+				</div>
+				<div class="course_content boxSize">
+					<h2>阶段考核</h2>
+					<p>&diams;制作道具模型</p>
+					<p>考核学员对所学知识的掌握情况，根据结果找出学员的问题和不足，以便在今后的学习过程中强化和改进。</p>
+				</div>
+			</div>
+			
+			<!--8-->
+			<div class="course_item boxSize">
+				<div class="course_img left">
+					<img src="img/u3d/img_6.png"/>
+				</div>
+				<div class="course_content boxSize">
+					<h2>综合训练</h2>
+					<p>&diams;中式写实建筑</p>
+					<p>&diams;Q版场景建筑制作</p>
+					<p>学习常见场景高级材质绘制、手绘+ 素材结合，强化场景材质表现。</p>
+				</div>
+			</div>
+		</div>
+		
+		<div id="footer"></div>
+		<!--<div class="bottom_bg">
+			<div class="free_wrap">
+				1
+			</div>
+			<div class="phone_wrap">
+				2
+			</div>
+			<div class="online_wrap">
+				3
+			</div>
+		</div>-->
+	</body>
+	<script src="lib/js/jquery-3.0.0.js"> </script>
+	<script src="js/game.js"> </script>
+
+</html>

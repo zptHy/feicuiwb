@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>轮播图</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/base.css"/>
+		<link rel="stylesheet" href="lib/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="lib/css/bootstrap-table.min.css"/>
+	<script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"8123",secure:"8124"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script><script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"8123",secure:"8124"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script><script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"8123",secure:"8124"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script><script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"8123",secure:"8124"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script><script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"8123",secure:"8124"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script></head>
+	<body data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-14" data-genuitec-path="/feicuiwb/src/main/webapp/admin/lbt.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-15" data-genuitec-path="/feicuiwb/src/main/webapp/admin/lbt.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-15" data-genuitec-path="/feicuiwb/src/main/webapp/admin/lbt.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-15" data-genuitec-path="/feicuiwb/src/main/webapp/admin/lbt.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-12" data-genuitec-path="/feicuiwb/src/main/webapp/admin/lbt.html">
+		<div class="page-header" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-14" data-genuitec-path="/feicuiwb/src/main/webapp/admin/lbt.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-15" data-genuitec-path="/feicuiwb/src/main/webapp/admin/lbt.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-15" data-genuitec-path="/feicuiwb/src/main/webapp/admin/lbt.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-15" data-genuitec-path="/feicuiwb/src/main/webapp/admin/lbt.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-12" data-genuitec-path="/feicuiwb/src/main/webapp/admin/lbt.html">
+			<h3>轮播图 <small>Loop Image</small></h3>
+		</div>
+		
+		<div id="btnList">
+			<button class="btn btn-default" id="btnAdd">
+				<span class="glyphicon glyphicon-plus"></span> 新增
+			</button>
+		</div>
+		
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalTitle">新增轮播图</h4>
+		      </div>
+		      <div class="modal-body">
+		       <!--<p style="display: none;">id:<span id="hideId">1</span></p>-->
+		       <form class="form-horizontal" id="myForm" enctype='multipart/form-data'>
+		       	  <input  style="display: none;" type="text" class="form-control" name="id" id="hideId" placeholder="中文名称">
+				  
+				  <div class="form-group">
+				    <label for="pictureFile" class="col-sm-2 control-label">PC端图片</label>
+				    <div class="col-sm-10">
+				      <input class="form-control btn btn-info" name="picFile" type="file" id="pictureFile">
+				      <p class="help-block" style="color:red">要求: 1920px*768px</p>
+				    </div>
+				  </div>
+				  
+				  <div class="form-group">
+				  	<label for="pictureFile" class="col-sm-2 control-label">PC端图片地址</label>
+				  	<div class="col-sm-10">
+				    	<input class="form-control" type="text" id="pictureAddress" placeholder="PC端图片地址" disabled="true"/>
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label for="mobilePicFile" class="col-sm-2 control-label">移动端图片</label>
+				    <div class="col-sm-10">
+				      <input class="form-control btn btn-info" name="mobilePicFile" type="file" id="mobilePicFile">
+				      <p class="help-block" style="color:red">要求: 750px*320px</p>
+				    </div>
+				  </div>
+				  
+				  <div class="form-group">
+				  	<label for="mobilePicAddr" class="col-sm-2 control-label">移动端图片地址</label>
+				  	<div class="col-sm-10">
+				    	<input class="form-control" type="text" id="mobilePicAddr" placeholder="移动端图片地址" disabled="true"/>
+				    </div>
+				  </div>
+				  
+				  <div class="form-group">
+				    <label for="englishName" class="col-sm-2 control-label">跳转地址</label>
+				    <div class="col-sm-10">
+				    	<input type="text" class="form-control" name="url" id="redirectUrl" placeholder="跳转地址">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label for="redirectUrl" class="col-sm-2 control-label">显示顺序</label>
+				    <div class="col-sm-10">
+				    	<input type="text" class="form-control" name="displayOrder" id="displayOrder" placeholder="显示顺序">
+				    </div>
+				  </div>
+				  
+				  
+				</form>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+		        <button type="button" id="sureCommit" class="btn btn-primary">确认</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+		<table id="table"></table>
+		
+		<script src="lib/js/jquery-1.9.1.js"></script>
+		<script src="lib/js/jquery.form.min.js"></script>
+		<script src="lib/js/bootstrap.min.js"></script>
+		<script src="lib/js/bootstrap-table.min.js"></script>
+		<script src="lib/js/bootstrap-table-zh-CN.min.js"></script>
+		<script src="js/lbt.js"></script>
+		
+	</body>
+</html>

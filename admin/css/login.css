@@ -1,0 +1,67 @@
+[genuitec-file-id="wc1-5"],[genuitec-lp-path="/feicuiwb/src/main/webapp/admin/css/login.css"],[genuitec-lp-enabled=false]{
+  /* for codelive */
+}
+
+[genuitec-file-id="wc1-4"],[genuitec-lp-path="/feicuiwb/src/main/webapp/admin/css/login.css"],[genuitec-lp-enabled=false]{
+  /* for codelive */
+}
+
+[genuitec-file-id="wc1-4"],[genuitec-lp-path="/feicuiwb/src/main/webapp/admin/css/login.css"],[genuitec-lp-enabled=false]{
+  /* for codelive */
+}
+
+[genuitec-file-id="wc1-4"],[genuitec-lp-path="/feicuiwb/src/main/webapp/admin/css/login.css"],[genuitec-lp-enabled=false]{
+  /* for codelive */
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #0090E4;
+	padding: 0 10px;
+}
+.content-wrapper {
+	height: 400px;
+	max-width: 500px;
+	margin: 0 auto;
+	margin-top: 6%;
+}
+.content-wrapper .title {
+	text-align: center;
+	color: #fff;
+	font-weight: 700;
+	font-size: 50px;
+}
+
+.content-wrapper .login-wrapper {
+	background: #fff;
+	border-radius: 4px;
+	padding: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-top: 5%;
+}
+
+.content-wrapper  .login-wrapper .logintitle {
+	color: #0090E4;
+	text-align: center;
+}
+
+.verification {
+	margin-top: 25px;
+	padding: 0;
+	/*padding-right: 5%;*/
+}
+.verification img {
+	width: 60px;
+	height: 34px;
+}
+
+.login-wrapper .loginbtn {
+	text-align: center;
+	margin-top: 5%;
+}
+
+.login-wrapper #reset {
+	margin-right: 10px;
+}

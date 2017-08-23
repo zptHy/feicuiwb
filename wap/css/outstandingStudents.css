@@ -1,0 +1,70 @@
+.innerContainer{
+	width:7rem;
+	margin:0 auto;
+}
+.bannerPic{
+	width:100%;
+	height:auto ;
+}
+/**经验+offer+作品**/
+.studentsTitle{
+	text-align:center;
+	height:0.73rem;
+	line-height:0.73rem;
+	color:#6d6d6d;
+}
+
+/**per li**/
+.studentsList li{
+	width:3.44rem;
+	height:3.21rem;
+	background:#f8f8f7;
+	position:relative;
+	box-shadow:0 0 0.04rem 0.04rem  #f0f0f0;
+	float:left;
+	margin-bottom:0.3rem;
+}
+.studentsList li:nth-child(1n+1){
+	margin-right:0.11rem;
+}
+.studentsList li img{
+	width:3.44rem;
+	height:2.18rem;
+}
+.studentsList li .studentsDes{
+	height:1.26rem;
+	
+}
+/***文字描述**/
+.studentsList li .studentsDes{
+	height:1.26rem;
+	padding-left:0.24rem;
+}
+.studentsList li .studentsDes .name{
+	font-size:0.22rem;
+	line-height:0.43rem;
+	padding-top:0.03rem;
+}
+.studentsList li .studentsDes .enterprise{
+	font-size:0.20rem;
+	line-height:0.28rem;
+	
+}
+.studentsList li .studentsDes .post{
+	font-size:0.20rem;
+	line-height:0.26rem;
+	
+}
+.works a{
+	display:block;
+	background: url(../img/outstandingStudents/works.png) no-repeat left center;
+	padding-left:0.27rem;
+	font-size:0.16rem;
+	position:absolute;
+	right:0.13rem;
+	bottom:0.13rem;
+	height:0.22rem;
+	line-height:0.22rem;
+	color:#818181;
+	background-size:contain;
+}

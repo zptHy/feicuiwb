@@ -1,0 +1,102 @@
+
+.none{
+	display: none;
+}
+.wraper{
+	width: 7.1rem;
+	margin: 0 auto;
+}
+.banner{
+	width: 100%;
+}
+.banner img{
+	width: 100%;
+}
+
+.teacher01>img{
+	width: 2.08rem;
+	margin: .2rem auto .12rem;
+}
+.part3,.part2,.part1{
+	width: 100%;
+}
+.part1 img{
+	width: 4.14rem;
+	float: left;
+}
+.part1 img:nth-child(1){
+	margin: .45rem .17rem 0 .11rem;
+	width: 2.3rem;
+}
+.part1 img:nth-child(2){
+	margin: .8rem 0 0 .18rem;
+}
+.part1 img:nth-child(3){
+	margin: .15rem 0 .15rem .6rem;
+}
+.part1 img:nth-child(4){
+	margin: 0 0 0 .18rem;
+}
+/*.part1 p{
+	float: left;
+	font-size: .18rem;
+	/*padding-left: 1.8rem;
+	color: #FFFEFF;
+	width: 3.34rem;
+	width: 4.14rem;
+	background-size: cover;
+}
+.part1 p:nth-of-type(1){
+	background: url(../img/teacher/chuandao.png) no-repeat;
+}
+.part1 p:nth-of-type(2){
+	background: url(../img/teacher/shouye.png.png) no-repeat;
+}
+.part1 p:nth-of-type(3){
+	background: url(../img/teacher/jiehuo.png.png) no-repeat;
+}*/
+
+
+.part2>img{
+	width: 100%;
+}
+
+.big{
+	background: url(../img/teacher/teaBg.png) no-repeat;
+	background-size: cover;
+}
+.part3{
+	padding: .3rem 0;
+}
+.part3>img{
+	margin: 0 auto;
+	width: 2.08rem;
+}
+.mySwiper01{
+	padding-bottom: .57rem;
+}
+.mySwiper01 .swiper-slide{
+	height: 3.64rem;
+	border-radius: .15rem;
+	background: #FFFEFF;
+	overflow: hidden;
+}
+.mySwiper01 .swiper-slide img:nth-of-type(1){
+	width: .9rem;
+	margin: .21rem auto .07rem;
+}
+.mySwiper01 .swiper-slide img:nth-of-type(2){
+	width: .78rem;
+	margin: .1rem auto .12rem;
+}
+.name{
+	font-size: .2rem;
+	text-align: center;
+	color: #333333;
+}
+.des{
+	padding: 0 .15rem;
+	font-size: .18rem;
+	line-height: .3rem;
+	color: #666666;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>合作企业</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="Keywords" content=""/>
+		<meta name="Description" content=""/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/cooperation.css"/>
+		<script>
+		 	(function (doc, win) {
+			    var docEl = doc.documentElement,
+			        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function () {
+					  var clientWidth = docEl.clientWidth;
+					  if (!clientWidth) return;
+					  // if (clientWidth>800){
+					  // 	docEl.style.fontSize = 800 / 11.25 + 'px';
+					  // }
+				     /*如果设计图为640就除以6.4 如果为750 就除以7.5*/
+				     /* 使用时设计图除以100 mate标签的缩放值为1 字体在电脑上看不出来*/
+					  else{docEl.style.fontSize =clientWidth / 7.5 + 'px';} 
+					  
+					};
+			    if (!doc.addEventListener) return;
+			    win.addEventListener(resizeEvt, recalc, false);
+			    doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+ 		</script>
+	</head>
+	<body>
+		
+		<div id="header" style="width: 100%; height: 0.88rem; background: rgba(0,0,0,.5);"> </div>
+		
+		<img src="img/cooperation/img_banner.png" alt="优质合作企业" width="100%"/>
+		
+		<div class="cooperation_wrap">
+			<h1 class="cooperation_title">卓越彼此共认同</h1>
+			<h2 class="cooperation_subtitle">学员能力赢得众多企业青睐</h2>
+			
+			<div class="list_content" id="companyList">
+				<!--模板数据-->
+				
+			</div>
+			
+			<!--绑定数据模板-->
+			<div id="itemHtml" style="display: none;">
+				<div class="content_one" companyId="$companyId$">
+					<div class="img_wrap">
+						<img src=""/>
+					</div>
+					<div class="content_text">
+						<div class="title_small">$companyTitle$</div>
+						<p>$describe$</p>
+						
+						<div class="cooperation_descript"> <a href="$companyLink$" target="_blank">了解详情 >></a> </div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+		<!--尾部-->
+		<div id="footer"></div>
+		
+		
+	</body>
+	<script src="lib/js/jquery-3.0.0.js"></script>
+	<script src="js/cooperation.js"></script>
+</html>

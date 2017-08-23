@@ -1,0 +1,239 @@
+[genuitec-file-id="wc1-100"],[genuitec-lp-path="/feicuiwb/src/main/webapp/front/css/teacher.css"],[genuitec-lp-enabled=false]{
+  /* for codelive */
+}
+
+
+.nav>li a{
+    border: none;
+}
+.nav>li:nth-child(4) a{
+    border-bottom: 6px solid #00a841;
+}
+
+/******     banner           ******/
+
+
+
+/******     选对老师           ******/
+.teacher_part1{
+	background-color: #e9ebf0;
+}
+.teacher_part1 .part1,.teacher_part2 .part2,.teacher_part3 .part3{
+	text-align: center;
+}
+.teacher_part1 .part1 img{
+	margin: 40px 0 27px 0;
+	display: inline-block;
+}
+.teacher_part1 dl{
+	display: none;
+	margin-bottom: 58px;
+	float: right;
+	overflow: hidden;
+}
+.teacher_part1 dl:nth-of-type(2n+1){
+	margin-right: 70px;
+}
+.teacher_part1 dl:nth-of-type(1){
+	margin-top: 117px;
+}
+.teacher_part1 dl dt{
+	float: left;
+}
+.teacher_part1 dl dd{
+	margin-top: 12px;
+	float: left;
+	width: 412px;
+	height: 103px;
+	margin-left: 64px;
+}
+.teacher_part1 dl dd p{
+	width: 334px;
+	font-size: 20px;
+	line-height: 32px;
+	color: #FFFFFF;
+	padding:20px 0 0 60px;
+}
+
+/******     能者为师           ******/
+.teacher_part2{
+	width: 100%;
+	height: 635px;
+	background: url(../img/teacher/teacher_part2_bg.jpg) no-repeat center;
+}
+.teacher_part2 .wrap{
+	overflow: hidden;
+}
+.teacher_part2 .part2 img{
+	display: inline-block;
+	margin: 42px 0 96px 0;
+}
+.teacher_part2 ul li{
+	display: none;
+	float: left;
+	margin: 0 12px;
+}
+.teacher_part2 ul li h1{
+	color: #01a350;
+	line-height: 54px;
+	text-align: left;
+}
+.teacher_part2 ul li p{
+	color: #FFFFFF;
+	font-size: 12px;
+	line-height: 22px;
+}
+.teacher_part2 ul li:nth-child(1){
+	width: 261px;
+	height: 161px;
+	background: url(../img/teacher/part2_bg_1.png) no-repeat;
+}
+.teacher_part2 ul li:nth-child(1) p{
+	width: 192px;
+	padding-left: 26px;
+}
+.teacher_part2 ul li:nth-child(1) h1{
+	padding-left: 52px;
+}
+.teacher_part2 ul li:nth-child(2){
+	width: 257px;
+	height: 161px;
+	background: url(../img/teacher/part2_bg_2.png) no-repeat;
+}
+.teacher_part2 ul li:nth-child(2) h1{
+	padding-left: 68px;
+}
+.teacher_part2 ul li:nth-child(2) p{
+	width: 140px;
+	padding-left: 68px;
+}
+
+.teacher_part2 ul li:nth-child(3){
+	width: 257px;
+	height: 161px;
+	background: url(../img/teacher/part2_bg_2.png) no-repeat;
+}
+.teacher_part2 ul li:nth-child(3) h1{
+	padding-left: 68px;
+}
+.teacher_part2 ul li:nth-child(3) p{
+	width: 140px;
+	padding-left: 68px;
+}
+.teacher_part2 ul li:nth-child(4){
+	width: 227px;
+	height: 164px;
+	background: url(../img/teacher/part2_bg_3.png) no-repeat;
+}
+.teacher_part2 ul li:nth-child(4) h1{
+	padding-left: 87px;
+}
+.teacher_part2 ul li:nth-child(4) p{
+	width: 147px;
+	padding-left: 76px;
+}
+.liaojiexiangqing{
+	text-align: center;
+	margin-top: 76px;
+}
+.liaojiexiangqing a{
+	font-size: 30px;
+	color: #01A350;
+	line-height: 60px;
+	padding: 8px 82px;
+	border: 3px solid #01a350;
+	border-radius: 30px;
+	text-align: center;
+}
+/******     精英教师           ******/
+.teacher_part3{
+	height: 827px;
+	background: url(../img/teacher/teacher_part3_bg.jpg) no-repeat center;
+}
+.teacher_part3 .part3 img{
+	display: inline-block;
+	margin: 43px 0 114px;
+}
+/*******/
+.teacher_part3 dl{
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	width: 326px;
+	height: 430px;
+}
+.teacher_part3 dl:nth-of-type(2){
+	margin: 0 61px;
+}
+.teacher_part3 dl dt img{
+	margin: 27px auto 20px;
+}
+.teacher_part3 dl dd img{
+	margin: 10px auto 20px;
+}
+.teacher_part3 dl p{
+	width: 258px;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 28px;
+	color: #666666;
+}
+.none{
+	display: none;
+}
+.block{
+	display: block;
+}
+.teacher_part3 .clearfix{
+	overflow: hidden;
+	height: 430px;
+	position: absolute;
+	
+}
+/*********************/
+.prevOrnext{
+	overflow: hidden;
+	width: 1200px;
+	height: 430px;
+	margin: 0 auto;
+	position: relative;
+}
+.prevOrnext .prev,.prevOrnext .next{
+	z-index: 9;
+	position: absolute;
+	top: 50%;
+	margin-top: -35px;
+	cursor: pointer;
+}
+.prevOrnext .next{
+	right: 0px;
+}
+.prevOrnext .left{
+	left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

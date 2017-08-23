@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>优秀学员</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="css/outstandingStudents.css"/>
+    <link rel="stylesheet" href="css/base.css"/>
+	<script>
+	 	(function (doc, win) {
+			var docEl = doc.documentElement,
+			resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+		    recalc = function () {
+			var clientWidth = docEl.clientWidth;
+			if (!clientWidth) return;
+			  // if (clientWidth>800){
+			  // 	docEl.style.fontSize = 800 / 11.25 + 'px';
+			  // }
+		     /*如果设计图为640就除以6.4 如果为750 就除以7.5*/
+		     /* 使用时设计图除以100 mate标签的缩放值为1 字体在电脑上看不出来*/
+			else{docEl.style.fontSize =clientWidth / 7.5+ 'px';}
+			};
+			  if (!doc.addEventListener) return;
+			  win.addEventListener(resizeEvt, recalc, false);
+			  doc.addEventListener('DOMContentLoaded', recalc, false);
+		})(document, window);
+    </script>
+</head>
+<body>
+	<div id="header"></div>
+    <!--banner优秀学员-->
+	<img class="bannerPic" src="img/outstandingStudents/banner.png" alt="" />
+	<!--经验+offer+作品-->
+	<h1 class="studentsTitle">经验+Offer+作品</h1>
+	<!--优秀学员名单-->
+	<ul class="studentsList innerContainer">
+		<li>
+			<img class="studentPic" src="img/outstandingStudents/pho_3.png" alt="" />
+			<div class="studentsDes">
+				<h3 class="name">毕云涛</h3>
+				<p class="enterprise">就业企业：北京市烤大腰子有限责任公司</p>
+				<p class="post">工作岗位：UI设计师</p>
+			</div>
+			<div class="works"><a href='studentswork.html'>看作品</a></div>
+		</li>
+
+	</ul>
+	<div id="footer"></div>
+		
+	<script src="lib/js/jquery-3.0.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/outstandingStudents.js"></script>	
+	<!--<script src="js/base.js"></script>-->
+</body>
+</html>

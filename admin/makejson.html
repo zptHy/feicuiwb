@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>生成json</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/base.css"/>
+		<link rel="stylesheet" href="lib/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="lib/css/bootstrap.min.css" />
+	<script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"8123",secure:"8124"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script><script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"8123",secure:"8124"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script><script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"8123",secure:"8124"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script><script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"8123",secure:"8124"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script><script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"8123",secure:"8124"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script></head>
+	<body data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-66" data-genuitec-path="/feicuiwb/src/main/webapp/admin/makejson.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-68" data-genuitec-path="/feicuiwb/src/main/webapp/admin/makejson.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-68" data-genuitec-path="/feicuiwb/src/main/webapp/admin/makejson.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-68" data-genuitec-path="/feicuiwb/src/main/webapp/admin/makejson.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-65" data-genuitec-path="/feicuiwb/src/main/webapp/admin/makejson.html">
+		<div class="page-header" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-66" data-genuitec-path="/feicuiwb/src/main/webapp/admin/makejson.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-68" data-genuitec-path="/feicuiwb/src/main/webapp/admin/makejson.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-68" data-genuitec-path="/feicuiwb/src/main/webapp/admin/makejson.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-68" data-genuitec-path="/feicuiwb/src/main/webapp/admin/makejson.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-65" data-genuitec-path="/feicuiwb/src/main/webapp/admin/makejson.html">
+			<h3>生成json数据 <small></small></h3>
+		</div>
+		
+		<button class="btn btn-info" id="website">1.网站数据</button>
+		<button class="btn btn-info" id="looping">2.轮播图数据</button>
+		<button class="btn btn-info" id="course">3.课程数据</button>
+		<button class="btn btn-info" id="news">4.新闻数据</button>
+		<br /><br />
+		<button class="btn btn-info" id="openclass">5.开班数据</button>
+		<button class="btn btn-info" id="teacher">6.老师数据</button>
+		<button class="btn btn-info" id="student">7.明星学员数据</button>
+		<button class="btn btn-info" id="works">8.学员作品数据</button>
+		<br /><br />
+		<button class="btn btn-info" id="company">9.合作企业数据</button>
+		<br /><br />
+		<button class="btn btn-info" id="all">全部数据</button>
+		<div class="info">
+			
+		</div>
+		<script src="lib/js/jquery-1.9.1.js"></script>
+		<script src="lib/js/bootstrap.min.js"></script>
+		<script>
+			$(function(){
+				var urlArr = [
+					{
+						"name": "1.网站数据",
+						"url": "/feicuiwb/websiteInfo/queryWebsiteInfo?act=write"
+					},
+					{
+						"name": "2.轮播图数据",
+						"url": "/feicuiwb/loopimg/queryAllLoopimg?act=write"
+					},
+					{
+						"name": "3.课程数据",
+						"url": "/feicuiwb/course/queryAllCourse?act=write"
+					},
+					{
+						"name": "4.新闻数据",
+						"url": "/feicuiwb/news/queryAllNews?act=write"
+					},
+					{
+						"name": "5.开班数据",
+						"url": "/feicuiwb/classInfo/queryAllClassInfo?act=write"
+					},
+					{
+						"name": "6.老师数据",
+						"url": "/feicuiwb/teacher/queryAllTeacher?act=write"
+					},
+					{
+						"name": "7.明星学员数据",
+						"url": "/feicuiwb/student/queryAllStudent?act=write"
+					},
+					{
+						"name": "8.学员作品数据",
+						"url": "/feicuiwb/workinfo/queryAllWorkInfo?act=write"
+					},
+					{
+						"name": "9.合作企业数据",
+						"url": "/feicuiwb/cooperation/queryAllCooperation?act=write"
+					}
+				];
+				var infos = [];
+				// ajax请求
+				function ajaxWrite(item){
+					if(item.url!=""){
+						$.ajax({
+							url: item.url,
+							type: "get",
+							success: function(res){
+								console.log(item.name+": "+res.msg);
+								infos.push(item.name+": "+res.msg+"<br/>");
+								$(".info").html(infos);
+							},
+							error: function(error){
+								console.log(item.name+": "+"写入文件失败");
+								infos.push(item.name+": "+"写入文件失败"+"<br/>");
+								$(".info").html(infos);
+							}
+						});
+					}
+					
+				}
+				// 网站数据
+				$("#website").click(function(){
+					ajaxWrite(urlArr[0]);
+				});
+				$("#looping").click(function(){
+					ajaxWrite(urlArr[1]);
+				});
+				$("#course").click(function(){
+					ajaxWrite(urlArr[2]);
+				});
+				$("#news").click(function(){
+					ajaxWrite(urlArr[3]);
+				});
+				$("#openclass").click(function(){
+					ajaxWrite(urlArr[4]);
+				});
+				$("#teacher").click(function(){
+					ajaxWrite(urlArr[5]);
+				});
+				$("#student").click(function(){
+					ajaxWrite(urlArr[6]);
+				});
+				$("#works").click(function(){
+					ajaxWrite(urlArr[7]);
+				});
+				$("#company").click(function(){
+					ajaxWrite(urlArr[8]);
+				});
+				$("#all").click(function(){
+					$(".info").html("");
+					infos = [];
+					for(var i=0; i<urlArr.length;i++){
+						ajaxWrite(urlArr[i]);
+					}
+				});
+				
+			});
+		</script>
+	</body>
+</html>

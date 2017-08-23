@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>web前端</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="css/web.css"/>
+     <link rel="stylesheet" href="css/base.css" />
+	<script>
+	 	(function (doc, win) {
+			var docEl = doc.documentElement,
+			resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+		    recalc = function () {
+			var clientWidth = docEl.clientWidth;
+			if (!clientWidth) return;
+			  // if (clientWidth>800){
+			  // 	docEl.style.fontSize = 800 / 11.25 + 'px';
+			  // }
+		     /*如果设计图为640就除以6.4 如果为750 就除以7.5*/
+		     /* 使用时设计图除以100 mate标签的缩放值为1 字体在电脑上看不出来*/
+			else{docEl.style.fontSize =clientWidth / 7.5+ 'px';}
+			};
+			  if (!doc.addEventListener) return;
+			  win.addEventListener(resizeEvt, recalc, false);
+			  doc.addEventListener('DOMContentLoaded', recalc, false);
+		})(document, window);
+    </script>
+</head>
+<body>
+	<div id="header"></div>
+    <!--banner-->
+    <img class="webBanner" src="img/web/webBanner.jpg" alt="" />
+    <!--6大学员专享福利--->
+    <div class="welfareContainer innerContainer">
+    	<!---title-->
+    	<h1 class="welfareTitle">6大学员专享福利</h1>
+    	<!---图标文字-->
+    	<ul class="innerContainer welfareList">
+    		<li>
+    			<img src="img/web/welfareIcon1.png"/>
+    			<h6>申请试听</h6>
+    		</li>
+    		<li>
+    			<img src="img/web/welfareIcon2.png"/>
+    			<h6>申请试听</h6>
+    		</li>
+    		<li>
+    			<img src="img/web/welfareIcon3.png"/>
+    			<h6>申请试听</h6>
+    		</li>
+    		<li>
+    			<img src="img/web/welfareIcon4.png"/>
+    			<h6>申请试听</h6>
+    		</li>
+    		<li>
+    			<img src="img/web/welfareIcon5.png"/>
+    			<h6>申请试听</h6>
+    		</li>
+    		<li>
+    			<img src="img/web/welfareIcon6.png"/>
+    			<h6>申请试听</h6>
+    		</li>
+    	</ul>
+    </div>
+    <!--学完能做什么-->
+    <div class="whatToDo">
+    	<!--学完能做什么title-->
+    	<div class="whatToDoTitle">
+    		<h1 class="whatToDoMainTitle">学完能做什么？</h1>
+    		<h3 class="whatToDoSubTitle">为什么那么多人学前端，连后端/程序员都转行学前端</h3>
+    	</div>
+    	<!---->
+    	<ul class="whatToDoList">
+    		<!--row1-->
+    		<li>
+    			<img src="img/web/whatToDoListPic1.png" alt="" />
+    		</li>
+    		<li class="whatToDoText">
+    			<div class="textInnerContainer">
+    				<h2 class="whatToDoSub">网站</h2>
+    				<p class="whatToDoDes">学习后可制作个人主页，可开发大型信息量网站</p>
+    			</div>
+    		</li>
+    		<!--row2-->
+    		<li class="whatToDoText whatToDoTextRight">
+    			<div class="textInnerContainer textInnerContainerRight">
+    				<h2 class="whatToDoSub">编程</h2>
+    				<p class="whatToDoDes">学习行业最新技术应用，紧跟BAT级企业实现高薪就业</p>
+    			</div>
+    		</li>
+    		<li>
+    			<img src="img/web/whatToDoListPic2.png" alt="" />
+    		</li>
+    		<!--row3-->
+    		<li>
+    			<img src="img/web/whatToDoListPic3.png" alt="" />
+    		</li>
+    		<li class="whatToDoText">
+    			<div class="textInnerContainer">
+    				<h2 class="whatToDoSub">APP应用程序</h2>
+    				<p class="whatToDoDes">应用软件界面前端信息的展示与交互程序设计应用</p>
+    			</div>
+    		</li>
+    		<!--row4-->
+    		<li class="whatToDoText whatToDoTextRight">
+    			<div class="textInnerContainer textInnerContainerRight">
+    				<h2 class="whatToDoSub">游戏</h2>
+    				<p class="whatToDoDes">掌握游戏前端界面，窗口模块及其他交互动效的展示及应用</p>
+    			</div>
+    		</li>
+    		<li>
+    			<img src="img/web/whatToDoListPic4.png" alt="" />
+    		</li>
+    	</ul>
+    </div>
+    <!--钱景-->
+    <div class="salary">
+    	<div class="salaryTitleContainer">
+    		<h1 class="salaryMainTitle">前端时代带来的"钱景"</h1>
+    		<h2 class="salarySubTitle">目前Web前端全栈开发工程师紧俏，企业高薪求才，薪资一涨再涨！！</h1>
+    	</div>
+    	<!--柱状图-->
+    	<div class="barGraphContainer">
+    		<img class="barGraph" src="img/web/barGraph.png" alt="" />
+    	</div>
+    	<div class="lineChartContainer">
+    		<img class="lineChart" src="img/web/lineChart.png" alt="" />
+    	</div>
+    </div>
+    <!--课程全新升级，点亮加薪亮点-->
+    <div class="upgradeClass">
+    	<!--title-->
+    	<div class="upgradeClassTitleContainer">
+    		<div class="upgradeMainTitle">课程全新升级，点亮加薪亮点</div>
+    		<div class="upgradeSubTitle">百天实战教学=两年工作经验</div>
+    	</div>
+    	<!---表格-->
+    	<!--表格1-->
+    	<div class="pcEndPage">
+    		<div class="pcEndSubject">PC<br/>端<br/>网<br/>站<br/>布<br/>局</div>
+    		<div class="pcEndContent">
+    			<div class="pcEndEditor">前端开发环境介绍（DreamWeaver、Sublime)</div>
+    			<div class="pcEndSkills">
+    				<ul class="pcEndSkillsContent">
+    					<li>HTML基础，CSS基础</li>
+    					<li>CSS盒模型,选择器，继承</li>
+    					<li>切图工具（PS、FW）</li>
+    					<li>溢出即元素类型，浮动</li>
+    					<li>浏览器兼容与宽高自适应</li>
+    					<li>定位，锚点与透明</li>
+    					<li>图片整合，雪碧图处理，CSS Hack</li>
+    					<li>表格，表单</li>
+    					<li>整站规划，CSS优化，Flash动画</li>
+    				</ul>
+    				<div class="pcEndSkillPic">
+    					<img src="img/web/pcEndPic.png" alt="" />
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    	<!--表格2-->
+    	<div class="htmlCss">
+    		<div class="htmlCssSubject">HTML5<br/>+<br/>Css3<br/>基础</div>
+    		<div class="htmlCssContent">
+    			<div class="htmlCssSkills">
+    				<ul class="htmlCssSkillsContent">
+    					<li>HTML5新增的元素与属性</li>
+    					<li>表单域增强元素</li>
+    					<li>CSS3选择器</li>
+    					<li>CSS3位移与变形处理</li>
+    					<li>CSS3动画，过度动画，关键帧动画</li>
+    					<li>弹性盒模型</li>
+    					<li>媒体查询</li>
+    					<li>文字字体相关样式</li>
+    					<li>表格，表单</li>
+    					<li>响应式设计</li>
+    				</ul>
+    				<div class="htmlCssSkillsPic">
+    					<img src="img/web/pcEndPic.png" alt="" />
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    	<!--表格3-->
+    	<div class="webApp">
+    		<div class="webAppSubject">WebAPP<br/>页<br/>面<br/>布<br/>局</div>
+    		<div class="webAppContent">
+    			<div class="webAppSkills">
+    				<ul class="webAppSkillsContent">
+    					<li>移动端页面设计规范</li>
+    					<li>移动端切图</li>
+    					<li>响应式布局，弹性盒子模型</li>
+    					<li>等比缩放布局</li>
+    					<li>CSS3动画，过度动画，关键帧动画</li>
+    					<li>viewport/meta</li>
+    					<li>flexbox详解</li>
+    					<li>rem的使用，字体选择</li>
+    				</ul>
+    				<div class="webAppSkillsPic">
+    					<img src="img/web/pcEndPic.png" alt="" />
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <!--改变就在眼前-->
+    <div class="webClassRegisterContainer">
+    	<div class="bgPic"></div>
+    	<ul class="connectionWays">
+    		<li>
+    			<img class="computer" src="img/web/computer.png" alt="" />
+    			<h3>免费试听</h3>
+    		</li>
+    		<li>
+    			<img class="phone" src="img/web/phone.png" alt="" />
+    			<h3>电话咨询</h3>
+    		</li>
+    		<li>
+    			<img class="online" src="img/web/online.png" alt="" />
+    			<h3>在线咨询</h3>
+    		</li>
+    	</ul>
+    </div>
+    <div id="footer"></div>
+	<script src="lib/js/jquery-3.0.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/web.js"></script>	
+	<!--<script src="js/base.js"></script>-->
+</body>
+</html>

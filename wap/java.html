@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>JAVA大数据</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/java.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+	</head>
+	<script type="text/javascript">
+//		document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 +"px";
+//					var deviceWidth = document.documentElement.clientWidth;
+//					if (deviceWidth > 750) {
+//						deviceWidth = 750;
+//					}
+//			document.documentElement.style.fontSize = deviceWidth / 7.5 + "px";
+
+	(function (doc, win) {
+			var docEl = doc.documentElement,
+			resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+		    recalc = function () {
+			var clientWidth = docEl.clientWidth;
+			if (!clientWidth) return;
+			  // if (clientWidth>800){
+			  // 	docEl.style.fontSize = 800 / 11.25 + 'px';
+			  // }
+		     /*如果设计图为640就除以6.4 如果为750 就除以7.5*/
+		     /* 使用时设计图除以100 mate标签的缩放值为1 字体在电脑上看不出来*/
+			else{docEl.style.fontSize =clientWidth / 7.5+ 'px';}
+			};
+			  if (!doc.addEventListener) return;
+			  win.addEventListener(resizeEvt, recalc, false);
+			  doc.addEventListener('DOMContentLoaded', recalc, false);
+		})(document, window);
+	</script>
+	<body>
+		<!--头部-->
+		<div id="header"></div>
+		<section class="banner"></section>
+		<section class="kecheng_four">
+			<ul>
+				<li>
+					<p>免费试听课程</p>
+					<p>只有试听才知道，你是否传说的中程序猿</p>
+				</li>
+				<i></i>
+				<li>
+					<p>阳光无忧助学</p>
+					<p>经济横飞的时代，我们出钱助你学习</p>
+				</li>
+				<i></i>
+				<li>
+					<p>翻转课堂学习</p>
+					<p>趣味"课前学习，课堂研究"先学后教</p>
+				</li>
+				<i></i>
+				<li>
+					<p>全网式就业</p>
+					<p>一地学习，全国平铺式就业，任你选 </p>
+				</li>
+			</ul>
+		</section>
+		<section class="xueJava">
+			<h1>学Java能做什么紧跟潮流</h1>
+			<p>从传统软件到主流移动互联网APP，从PC终端到智能设备终端，我们的课程一直在不断研发更新，务求能让我们的课程紧贴互联网发展潮流</p>
+			<ul>
+				<li>
+					<p></p>
+					<p>pc互联网终端</p>
+				</li>
+				<li>
+					<p></p>
+					<p>手机移动端</p>
+				</li>
+				<li>
+					<p></p>
+					<p>平板移动端</p>
+				</li>
+				<li>
+					<p></p>
+					<p>智能电视终端</p>
+				</li>
+				<li>
+					<p></p>
+					<p>智能穿戴终端</p>
+				</li>
+			</ul>
+		</section>
+		<section class="java_morry"></section>
+		<section class="java_dagang">
+			<h1>Java课程大纲</h1>
+			<p>从传统软件到主流移动互联网APP，从PC终端到智能设备终端，我们的课程一直在不断研发更新，务求能让我们的课程紧贴互联网发展潮流</p>
+			<div class="java_dagang_center">
+				<i></i>
+				<i></i>
+				<i></i>
+				<div class="java_jichu">
+					<b></b>
+					<p>Java基础</p>
+					<p>01</p>
+					<p>1、Java基础</p>
+					<p>模块内容：基础语法、面向对象、集合、IO、线程、网络、高级特性。<br /> 模块介绍：100以上的经典案例及100以上的实战练习，掌握Java开发必备基础语言</p>
+				</div>
+				<div class="javaWeb_jichu">
+					<b></b>
+					<b></b>
+					<p>JavaWeb基础</p>
+					<p>02</p>
+					<p>1、JavaWeb前端技术</p>
+					<p>模块内容：HTML、CSS、JS、jQuery、Frame框架 <br />模块介绍：通过电商首页面项目，每天完成不同任务，同时学习HTML、CSS、JS、jQuery等核心前端技术</p>
+					<p>2、JavaWeb后端技术</p>
+					<p>模块内容：MySQL、JDBC、JSP、JSTL Servlet、Listener、Filter、Cookie等<br /> 模块介绍：通过电商项目，每天完成不同任务，在完成任务的同时学习Mysql、Servlet、JSP等核心后端技术</p>
+				</div>
+				<div class="javaWeb_kuangjia">
+					<b></b>
+					<b></b>
+					<p>JavaWeb框架</p>
+					<p>03</p>
+					<p>1、JavaWeb框架 (OA)</p>
+					<p>模块内容：Hibernate、Spring、SpringMVC、Shiro、Bootstrap、Maven、SVN、Struts2、Webservice、EasyUI、zTree <br />
+						模块介绍：通过OA系统项目、每天完成不同任务、在学习所需核心技术的同时，完成任务，最终完成整个项目
+					</p>
+					<p>JavaWeb框架(CRM)</p>
+					<p>模块内容：Spring、SpringMVC、Mybatis、jQuery、Echarts、Bootstrap、SM框架、Active-MQ、Redis、GIT & GITHUB、JsTree、Activity工作流<br />
+						模块介绍：通过电商项目，每天完成不同任务，在完成任务的同时学习MySql、Servlt、JSP等核心后端技术
+					</p>
+				</div>
+				<div class="dashuju">
+					<b></b>
+					<p>大数据开发</p>
+					<p>04</p>
+					<p>1、大数据开发</p>
+					<p>模块内容：Linux、NIO、Queue、Dubbo、NoSQL、Hadoop、HDFS、Lucene、MapReduce、Storm、Zookeeper、Kafka、Hbase<br />
+						模块介绍：Linux系统、分布式、NoSQL(Redis)、全文搜索(Lucene和solr)、Hadoop集群、MapReduce(用于大数据的编程模型)等
+					</p>
+				</div>
+			</div>
+		</section>
+		<div id="footer"></div>
+	</body>
+	<script src="lib/js/jquery-3.0.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/java.js" type="text/javascript" charset="utf-8"></script>
+</html>

@@ -1,0 +1,127 @@
+[genuitec-file-id="wc1-97"],[genuitec-lp-path="/feicuiwb/src/main/webapp/front/css/reset.css"],[genuitec-lp-enabled=false]{
+  /* for codelive */
+}
+
+/*margin的样式初始化*/
+body {
+    /*font-size: 62.5%;*/
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, dl, dd, input, canvas {
+    margin: 0;
+}
+
+/*padding的样式初始化*/
+ol, ul, th, td, input, canvas {
+    padding: 0;
+}
+
+/*列表点点的样式初始化*/
+ul, ol {
+    list-style: none;
+}
+
+/*下划线的样式初始化*/
+a {
+    text-decoration: none;
+}
+
+/*字体样式初始化*/
+em {
+    font-style: normal;
+}
+
+/*图片的初始化*/
+img {
+    border: none;
+}
+
+/*表格的间隙样式初始化*/
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*表单*/
+input, textarea {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+/*清浮动 BFC*/
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clear {
+    zoom: 1;
+}
+nav {
+	width: 100%;
+	height: 100px;
+	background: url(../img2/nav_bg.png) no-repeat top center;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+}
+
+#nav {
+	width: 100%;
+	opacity: 0.6;
+	height: 100px;
+	position: relative;
+}
+
+.nav_wrap {
+	width: 1100px;
+	margin: 0 auto;
+	height: 100px;
+}
+
+.nav_wrap li {
+	float: left;
+}
+
+.nav_wrap li a {
+	background: url(../img2/nav_line.png) no-repeat right center;
+	padding: 0 44px;
+	line-height: 100px;
+	display: block;
+	height: 100px;
+	font-size: 24px;
+	color: #fff;
+}
+
+.nav_wrap li a.nav_last {
+	background: none;
+}
+
+.nav_wrap li a.nav_now {
+	color: #ffd905;
+}
+
+#nav dl.tel {
+	position: absolute;
+	right: 7%;
+	top: 0;
+	margin-top: 35px;
+	overflow: hidden;
+}
+
+#nav>dl.tel dd,
+nav dl.tel dt {
+	float: left;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+
+#nav>div.logo {
+	position: absolute;
+	left: 7%;
+	margin-top: 27px;
+}

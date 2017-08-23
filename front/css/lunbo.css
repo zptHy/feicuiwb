@@ -1,0 +1,58 @@
+#banner{
+	width:100%;
+	
+	background: #152636;
+	margin-top:164px;
+    position:relative;
+    overflow:hidden;
+}
+#banner .bannerImgContainer{
+	position: absolute;
+	width:100000px;
+}
+
+/**箭头**/
+.arrow{
+	width :61px;
+	height:82px;
+	position:absolute;
+}
+.arrowLeft{
+	background: url(../img/index/btn_show.png) no-repeat;
+	background-position:0 -82px ;
+	left:0;
+	top:50%;
+	margin-top:-50px;
+	z-index:10000;
+}
+.arrowRight{
+	background: url(../img/index/btn_show.png) no-repeat;
+	background-position:0 0 ;
+	right:0;
+	top:50%;
+	margin-top:-50px;
+}
+.item{
+	width:100%;
+	display:block;
+	float:left;
+}
+/**点状导航**/
+.pointerNavContainer{
+	width:100%;
+	position:absolute;
+	bottom: 80px;
+}
+/**点状导航的每个点**/
+.pointerNavContainer .point_nav{
+	width:210px;
+	height:9px;
+	float:left;
+	background:url(../img/index/dot.png) no-repeat;
+	background-position:-6px -37px;
+	margin-right:5px;
+}
+.pointerNavContainer .green{
+	background:url(../img/index/dot.png) no-repeat;
+	background-position:-6px -6px;
+}

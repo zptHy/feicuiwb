@@ -1,0 +1,225 @@
+.banner,.banner img,.details,.zyqj,.banner2,.banner2 img{
+    width: 100%;
+}
+.details ul{
+    width: 6.1rem;
+    margin: auto;
+}
+.details{
+    padding-top: 0.6rem;
+    background-color: #ececec;
+    padding-bottom: 0.6rem;
+}
+.details h3{
+    font-size: 0.3rem;
+    text-align: center;
+}
+.details ul{
+    font-size: 0.26rem;
+    margin-top: 0.55rem;
+}
+.details ul li{
+    margin-bottom: 0.68rem;
+}
+.te{
+    line-height: 0.4rem;
+    color: #6d6d6d;
+    width: 4.56rem;
+}
+.i{
+    margin-top: 0.2rem;
+}
+.te p:nth-of-type(1){
+    color: #323232;
+}
+.details ul img{
+    width: 1.36rem;
+}
+.zyqj{
+    font-size: 0.24rem;
+    line-height: 0.36rem;
+    padding:0.6rem 0 1rem 0;
+}
+.zyqj h3{
+    font-size: 0.3rem;
+    color: #434343;
+    text-align: center;
+}
+.zyqj>p{
+    width: 6.06rem;
+    color: #848484;
+    text-align: center;
+    margin:0.55rem auto 0;
+}
+.zyqj>div{
+    width: 6.06rem;
+    margin: auto;
+}
+.zyqj>div img{
+    width: 100%;
+}
+.zyqj>div p{
+    padding-right: 0.2rem;
+    padding-top: 0.15rem;
+    color: #848484;
+}
+.ensure{
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.8rem;
+    background-color: #ececec;
+}
+.e-content{
+    width: 7.1rem;
+    margin: auto;
+    font-size: 0.22rem;
+}
+.e-content>h3{
+    font-size: 0.3rem;
+    color: #434343;
+    margin: auto 0.1rem;
+    text-align: center;
+}
+.e-content>p{
+    width: 6.06rem;
+    color: #848484;
+    text-align: center;
+    margin:0.05rem auto 0;
+}
+.e-content img{
+    width: 0.6rem;
+}
+.e-content ul{
+    width: 7rem;
+    padding: 0;
+    margin: auto;
+}
+.e-content ul li{
+    width: 100%;
+    height: 1.2rem;
+    margin-top: 0.2rem;
+    background-color: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+.e-content ul li:hover h4{
+    bottom: 0;
+}
+.e-content ul li h4{
+    position: absolute;
+    width: 100%;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    height: 0.06rem;
+    background-color: #00a841;
+    bottom: -0.06rem;
+}
+.e-content ul li>div{
+    float: left;
+}
+.e-content ul li>div:nth-of-type(3){
+    width: 5.6rem;
+}
+.e-content ul li>div:nth-of-type(2){
+    width: 0.4rem;
+    height: 1.2rem;
+    background-size: 0.01rem 0.42rem;
+    background: url("../img/php/line.png") center center no-repeat;
+}
+.e-content ul li>div:nth-of-type(1) img{
+    margin-top: 0.4rem;
+    margin-left: 0.2rem;
+}
+.e-content ul li>div:nth-of-type(3) div{
+    color: #00a841;
+    font-size: 0.24rem;
+    margin-top: 0.1rem;
+}
+.e-content ul li>div:nth-of-type(3) p{
+    color: #ababab;
+    margin:0.05rem 0;
+}
+.kcdg{
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem;
+}
+.kcdg>h3{
+    font-size: 0.3rem;
+    color: #434343;
+    margin: auto 0.1rem;
+    text-align: center;
+}
+.kcdg>p{
+    width: 6.06rem;
+    font-size: 0.22rem;
+    color: #848484;
+    text-align: center;
+    margin:0.05rem auto 0;
+}
+.gallery-top{
+    width: 100%;
+    /*overflow: hidden;*/
+    overflow: auto;
+    height: 5.1rem;
+    color: #ffffff;
+}
+.swiper-wrapper ul{
+    font-size: 0.22rem;
+    padding: 0;
+    line-height: 0.34rem;
+    color: #deebe5;
+    margin-top: 0.5rem;
+
+}
+.swiper-wrapper h4{
+    font-size: 0.28rem;
+    text-align: left;
+}
+.swiper-wrapper p{
+    font-size: 0.22rem;
+}
+.swiper-wrapper{
+    height: 4.4rem;
+    width: 100%;
+    margin: auto;
+}
+.gallery-top .swiper-slide{
+    background-color: #01a83f;
+    border-radius: 2px;
+    width: 3.4rem;
+    padding: 0.4rem 0.22rem;
+    text-align: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bott{
+    width: 4rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    text-align: center;
+    margin:0.2rem auto;
+    font-size: 0.28rem;
+    font-weight: bolder;
+    color: #848484;
+}
+.gallery-top .swiper-slide i{
+    display: none;
+}
+.gallery-top .swiper-slide h4{
+    font-size: 0.28rem;
+    margin: 0;
+}
+.gallery-top .swiper-slide p{
+    font-size: 0.24rem;
+    margin-top: 0.2rem;
+    color: #deebe5;
+}
+.swiper-pagination span{
+    width: 0.18rem;
+    height: 0.11rem;
+}

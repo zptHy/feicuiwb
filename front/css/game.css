@@ -1,0 +1,179 @@
+[genuitec-file-id="wc1-93"],[genuitec-lp-path="/feicuiwb/src/main/webapp/front/css/game.css"],[genuitec-lp-enabled=false]{
+  /* for codelive */
+}
+
+.nav>li a{
+    border: none;
+}
+.nav>li:nth-child(3)>a{
+    border-bottom: 6px solid #00a841;
+}
+
+/******     学员专享福利           ******/
+
+
+
+.welfare{
+	padding-bottom: 124px;
+}
+.welfare h1{
+	font-weight: normal;
+	font-size: 64px;
+	text-align: center;
+	padding: 60px 0 52px 0;
+}
+.welfare>dl.left{
+	width: 182px;
+}
+.welfare>dl h2{
+	padding: 18px 0 8px;
+}
+.welfare>dl.left dt,.welfare>dl.left dd{
+	text-align: center;
+	font-size: 12px;
+	line-height: 22px;
+	color: #666666;
+}
+.welfare>dl.left dt img{
+	display: inline-block;
+}
+
+
+/******     游戏玩家到行业精英           ******/
+.game_player{
+	background: #dedede;
+}
+.game_player h1{
+	font-size: 54px;
+	padding: 58px 0 24px 0;
+	color: #1a1a1a;
+}
+.game_player p{
+	padding-bottom: 40px;
+	width: 870px;
+	margin: 0 auto;
+	font-size: 18px;
+	line-height: 32px;
+	color: #323232;
+}
+.game_player img{
+	width: 100%;
+	padding-bottom: 75px;
+}
+
+
+.gold h1{
+	font-size: 54px;
+	color: #2f2f2f;
+	padding: 128px 0 42px;
+}
+.gold h2{
+	font-size: 44px;
+	color: #2f2f2f;
+	padding-bottom: 80px;
+}
+.gold p span{
+	display: block;
+	float: left;
+	font-size: 22px;
+	color: #FFFFFF;
+	line-height: 58px;
+	padding: 0 29px;
+	background: #0acf4b;
+	border-radius: 6px;
+	cursor: pointer;
+	margin-bottom: 37px;
+}
+.gold p span:nth-child(1){
+	margin-left: 278px;
+}
+.gold p span:nth-child(2){
+	margin-left: 178px;
+}
+
+
+/******     游戏动作设计师班           ******/
+.designer h1{
+	font-size: 38px;
+	line-height: 108px;
+	background: #272727;
+	color: #FFFFFF;
+}
+.designer_title{
+	background: #d1ffe0;
+}
+.designer_title li{
+	float: left;
+	font-size: 16px;
+	line-height: 44px;
+}
+.designer_title li:nth-child(1){
+	width: 258px;
+	padding-left: 17px;
+}
+.designer_title li:nth-child(2){
+	width: 268px;
+	text-align: center;
+}
+.designer_title li:nth-child(3){
+	width: 488px;
+	padding-left: 69px;
+}
+.designer_contenter{
+	border: 1px solid #E2E2E2;
+	border-top: none 0;
+}
+.designer_contenter:last-child{
+	margin-bottom: 34px;
+}
+.designer_contenter dt{
+	border-right: 1px solid #e2e2e2;
+}
+.designer_contenter dt img{
+	padding: 8px 24px;
+}
+.designer_contenter dd.col_3{
+	font-size: 18px;
+	color: #0ddb50;
+	width: 218px;
+	padding-left: 48px;
+	border-right: 1px solid #e2e2e2;
+	line-height: 160px;
+}
+.designer_contenter ul{
+	width: 465px;
+	padding-left: 69px;
+	padding-right: 20px;
+	padding-top: 30px;
+}
+.designer_contenter ul li{
+	font-size: 12px;
+	line-height: 22px;
+	color: #6f6f6f;
+}
+.designer_contenter p{
+	color: #616161;
+	font-size: 12px;
+	line-height: 22px;
+}
+.designer_contenter .col_2{
+	padding-left: 48px;
+	width: 773px;
+}
+.designer_contenter .col_2 h4{
+	font-weight: normal;
+	text-align: left;
+	padding: 25px 0 12px 0;
+	font-size: 18px;
+	color: #0ddb50;
+}
+.designer_contenter .col_2 p{
+	color: #6F6F6F;
+	font-size: 12px;
+	line-height: 22px;
+}
+
+
+
+
+

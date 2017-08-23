@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>开班信息</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="description" content=""/>
+		<meta name="keywords" content=""/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/classInfo.css"/>
+		<script>
+		 	(function (doc, win) {
+				  var docEl = doc.documentElement,
+				    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function () {
+				  var clientWidth = docEl.clientWidth;
+				  if (!clientWidth) return;
+				  // if (clientWidth>800){
+				  // 	docEl.style.fontSize = 800 / 11.25 + 'px';
+				  // }
+			     /*如果设计图为640就除以6.4 如果为750 就除以7.5*/
+			     /* 使用时设计图除以100 mate标签的缩放值为1 字体在电脑上看不出来*/
+				  else{docEl.style.fontSize =clientWidth / 7.5+ 'px';}
+				};
+				  if (!doc.addEventListener) return;
+				  win.addEventListener(resizeEvt, recalc, false);
+				  doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+	</head>
+	<body>
+		<div id="header"></div>
+		
+		<div class="wraper title">
+			<h1>开班信息</h1>
+			<h6>联合海外教授独立研发</h6>
+		</div>
+		
+		<div class="wraper new_class">
+			<h2>最新开班信息</h2>
+		</div>
+		
+		
+		<ul class="wraper classlist clear">
+			<li class="none">
+				<p></p>
+				<h4></h4>
+			</li>
+			
+		</ul>
+		<div class="wraper">
+			<h3 style="padding-left: .16rem;color:#01b257;margin: .3rem 0;">火爆开班</h3>
+		</div>
+		<ul class="boom_class clear">
+			<li class="left clear none">                        <!--clone模板-->
+				<h5></h5>
+				<p></p>
+			</li>
+																<!--后台获取数据-->
+		</ul>
+		
+		<div style="width: 100%;">
+			<img style="width: 100%;" src="img/classInfo/img_5.png"/>
+		</div>
+		
+		<div id="footer"></div>
+		<script src="lib/js/jquery-3.0.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/classInfo.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>新闻详情</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="Keywords" content=""/>
+		<meta name="description" content=""/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/feicuiarticle.css"/>
+		<script>
+		 	(function (doc, win) {
+			    var docEl = doc.documentElement,
+			        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function () {
+					  var clientWidth = docEl.clientWidth;
+					  if (!clientWidth) return;
+					  // if (clientWidth>800){
+					  // 	docEl.style.fontSize = 800 / 11.25 + 'px';
+					  // }
+				     /*如果设计图为640就除以6.4 如果为750 就除以7.5*/
+				     /* 使用时设计图除以100 mate标签的缩放值为1 字体在电脑上看不出来*/
+					  else{docEl.style.fontSize =clientWidth / 7.5 + 'px';} 
+					  
+					};
+			    if (!doc.addEventListener) return;
+			    win.addEventListener(resizeEvt, recalc, false);
+			    doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+ 		</script>
+	</head>
+	<body>
+		<div class="containerWrap">
+			
+			<!--头部-->
+			<div id="header" style="width: 100%;height: 0.88rem; background: rgba(0,0,0,.5);"> </div>
+			
+			<!--导航-->
+			<div class="news_nav">
+				<div class="newLogo left borderBox">
+					<img src="img/feicuinews/newslogo.png"/>
+					
+				</div>
+				<div class="newsLink left borderBox">
+					
+					<a href="feicuinews.html">翡翠新闻</a> > <a href="#">官方</a>
+				</div>
+			</div>
+			
+			<!--新闻内容-->
+			<div class="news_content_wrap">
+				<div class="news_content">
+					
+					
+				</div>
+				
+			</div>
+			
+			<!--<div class="bottom_bg">
+				<input type="text" name="" id="" placeholder="说说你的看法" />
+				<div class="msg_btn"> </div>
+				<div class="star_btn"></div>
+				<div class="share_btn"></div>
+			</div>-->
+			<div id="footer"></div>
+		</div>
+		
+		
+		<script src="lib/js/jquery-3.0.0.js"></script>
+		<script src="js/feicuiarticle.js"></script>
+	</body>
+</html>

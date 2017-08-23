@@ -1,0 +1,253 @@
+#content_wrap {
+	max-width: 1920px;
+	min-height: 4510px;
+	margin: 0 auto;
+}
+.banner{
+	width: 100%;
+	height: 3rem;
+	background-image: url(../img/java/img_banner.png);
+	background-position: center center;
+	background-size: cover;
+}
+.kecheng_four{
+	width: 100%;
+	height: 1.7rem;
+	box-shadow: 0px 0px 15px gray;
+	background-color: rgb(254,254,254);
+}
+.kecheng_four ul{
+	height: 1.7rem;
+	margin: 0px 0.2rem;
+}
+.kecheng_four ul li,.kecheng_four ul i{
+	float: left;
+}
+.kecheng_four ul i{
+	width: 0px;
+	height: 1.37rem;
+	outline: 1px solid darkgray;
+	margin-top: 0.15rem;
+}
+.kecheng_four ul li{
+	width: 24.5%;
+	height: 1.7rem;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+.kecheng_four ul li p:nth-child(1){
+	color: rgb(67,128,161);
+	font-size: 0.2rem;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+.kecheng_four ul li p:nth-child(2){
+	margin: auto;
+	width: 1.3rem;
+	font-size: 0.2rem;
+	line-height: 0.4rem;
+	text-align: center;
+}
+.kecheng_four ul li:nth-of-type(1){
+	background-image: url(../img/java/img_A.png);
+}
+.kecheng_four ul li:nth-of-type(2){
+	background-image: url(../img/java/img_B1.png);
+}
+.kecheng_four ul li:nth-of-type(3){
+	background-image: url(../img/java/img_C1.png);
+}
+.kecheng_four ul li:nth-of-type(4){
+	background-image: url(../img/java/img_D1.png);
+}
+.xueJava{
+	width: 100%;
+	height:4.08rem;
+	text-align: center;
+	overflow: hidden;
+}
+.xueJava h1{
+	margin-top: 0.55rem;
+	font-size: 0.4rem;
+}
+.xueJava>p{
+	font-size: 0.23rem;
+	width: 5.1rem;
+	height: 0.85rem;
+	margin: auto;
+	margin-top: 0.3rem;
+	line-height: 0.35rem;
+	font-weight: 900;
+}
+.xueJava ul{
+	margin-top: 0.43rem;
+	height: 1.4rem;
+	overflow: hidden;
+}
+.xueJava ul li{
+	width: 19.9%;
+	height: 1.4rem;
+	float: left;
+}
+.xueJava ul li p:nth-child(1){
+	height: 0.95rem;
+	background-repeat: no-repeat;
+	background-position: bottom center; 
+}
+.xueJava ul li:nth-child(1) p:nth-child(1){
+	background-image: url(../img/java/img_4.png);
+}
+.xueJava ul li:nth-child(2) p:nth-child(1){
+	background-image: url(../img/java/img_8.png);
+}
+.xueJava ul li:nth-child(3) p:nth-child(1){
+	background-image: url(../img/java/img_7.png);
+}
+.xueJava ul li:nth-child(4) p:nth-child(1){
+	background-image: url(../img/java/img_6.png);
+}
+.xueJava ul li:nth-child(5) p:nth-child(1){
+	background-image: url(../img/java/img_5.png);
+}
+.xueJava ul li p:nth-child(2){
+	height: 0.45rem;
+	font-size: 0.2rem;
+	font-weight: 900;
+	line-height: 0.45rem;
+}
+/*java 三个薪资阶段*/
+.java_morry{
+	width: 100%;
+	height: 5.43rem;
+	background-image: url(../img/java/img_1.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+.java_dagang{
+	width: 100%;
+	height: 21rem;
+	overflow: hidden;
+}
+.java_dagang h1{
+	font-size: 0.4rem;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+.java_dagang>p{
+	font-size: 0.3rem;
+	font-weight: 400;
+	width: 5rem;
+	margin: auto;
+	margin-top: 0.33rem;
+	line-height: 0.45rem;
+	text-align: center;
+}
+.java_dagang_center{
+	position: relative;
+	height: 17rem;
+	margin: 0px 0.6rem;
+	margin-top: 0.5rem;
+}
+.java_dagang_center>i:nth-child(1){
+	display: block;
+	position: absolute;
+	width: 0.05rem;
+	height: 17rem;
+	top: 0px;
+	left: 0.2rem;
+	background-color: #000000;
+}
+.java_dagang_center>i:nth-child(2),.java_dagang_center>i:nth-child(3){
+	position: absolute;
+	left: 0.2rem;
+	width: 0.13rem;
+	height: 0.13rem;
+	background-color: #000000;
+	border-radius: 50%;
+	margin-left: -0.04rem;
+}
+.java_dagang_center>i:nth-child(2){
+	top: 0px;
+}
+.java_dagang_center>i:nth-child(3){
+	bottom: 0px;
+}
+.java_jichu{
+	position:relative;
+	height: 2.9rem;
+	overflow: hidden;
+}
+.javaWeb_jichu{
+	position: relative;
+	height: 5.05rem;
+	overflow: hidden;
+}
+.javaWeb_kuangjia{
+	position: relative;
+	height: 5.6rem;
+	overflow: hidden;
+}
+.dashuju{
+	position: relative;
+	height: 3.2rem;
+	overflow: hidden;
+}
+.java_jichu>p:nth-of-type(1),.javaWeb_jichu>p:nth-of-type(1),.javaWeb_kuangjia>p:nth-of-type(1),.dashuju>p:nth-of-type(1){
+	height: 0.4rem;
+	background-color: #000000;
+	color: white;
+	margin-top: 0.3rem;
+	font-size: 0.3rem;
+	text-indent: 1.5rem;
+	line-height: 0.4rem;
+}
+.java_jichu>b,.javaWeb_jichu>b,.javaWeb_kuangjia>b,.dashuju>b{
+	display: block;
+	width: 0.4rem;
+	height: 0.05rem;
+	background-color: #000000;
+	position: absolute;
+	top: 1.2rem;
+	left: 0.2rem;
+}
+.javaWeb_jichu>b:nth-child(2){
+	top: 2.85rem;
+}
+.javaWeb_kuangjia>b:nth-child(2){
+	top: 3.45rem;
+}
+.java_jichu>p:nth-of-type(2),.javaWeb_jichu>p:nth-of-type(2),.javaWeb_kuangjia>p:nth-of-type(2),.dashuju>p:nth-of-type(2){
+	position: absolute;
+	top: 0.25rem;
+	z-index: 2;
+	left: 0px;
+	width: 1.24rem;
+	height: 0.52rem;
+	background-image: url(../img/java/img_2.PNG);
+	background-repeat: no-repeat;
+	color: white;
+	font-size: 0.5rem;
+	text-indent: 0.2rem;
+}
+.java_jichu>p:nth-of-type(3),.javaWeb_jichu>p:nth-of-type(3),.javaWeb_jichu>p:nth-of-type(5),.javaWeb_kuangjia>p:nth-of-type(3),.javaWeb_kuangjia>p:nth-of-type(5),.dashuju>p:nth-of-type(3){
+	width: 2.4rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	background-color: #000000;
+	color: white;
+	font-size: 0.3rem;
+	margin-top: 0.3rem;
+	margin-left: 0.6rem;
+	text-indent: 0.2rem;
+}
+.javaWeb_jichu>p:nth-of-type(3),.javaWeb_kuangjia>p:nth-of-type(3),.javaWeb_jichu>p:nth-of-type(5),.javaWeb_kuangjia>p:nth-of-type(5){
+	width: 3.5rem;
+}
+.java_jichu>p:nth-of-type(4),.javaWeb_jichu>p:nth-of-type(4),.javaWeb_jichu>p:nth-of-type(6),.javaWeb_kuangjia>p:nth-of-type(4),.javaWeb_kuangjia>p:nth-of-type(6),.dashuju>p:nth-of-type(4){
+	width: 6.2rem;
+	font-size: 0.25rem;
+	font-weight: 400;
+	margin-top: 0.1rem;
+	margin-left: 0.6rem;
+}

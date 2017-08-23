@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <style>
+            html,body{
+                height:100%;
+                width:100%;
+                padding:0;
+                margin:0;
+            }
+            #preview{
+                width:100%;
+                height:100%;
+                padding:0;
+                margin:0;
+            }
+            #preview *{font-family:sans-serif;font-size:16px;}
+        </style>
+        <script type="text/javascript" src="../internal.js"></script>
+        <script src="../../ueditor.parse.js"></script>
+        <title></title>
+    <script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"8123",secure:"8124"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script><script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"8123",secure:"8124"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script><script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"8123",secure:"8124"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script><script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"8123",secure:"8124"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script><script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"8123",secure:"8124"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script></head>
+    <body class="view" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-39" data-genuitec-path="/feicuiwb/src/main/webapp/admin/lib/js/dialogs/preview/preview.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-40" data-genuitec-path="/feicuiwb/src/main/webapp/admin/lib/js/dialogs/preview/preview.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-40" data-genuitec-path="/feicuiwb/src/main/webapp/admin/lib/js/dialogs/preview/preview.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-40" data-genuitec-path="/feicuiwb/src/main/webapp/admin/lib/js/dialogs/preview/preview.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-37" data-genuitec-path="/feicuiwb/src/main/webapp/admin/lib/js/dialogs/preview/preview.html">
+        <div id="preview" style="margin:8px" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-39" data-genuitec-path="/feicuiwb/src/main/webapp/admin/lib/js/dialogs/preview/preview.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-40" data-genuitec-path="/feicuiwb/src/main/webapp/admin/lib/js/dialogs/preview/preview.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-40" data-genuitec-path="/feicuiwb/src/main/webapp/admin/lib/js/dialogs/preview/preview.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-40" data-genuitec-path="/feicuiwb/src/main/webapp/admin/lib/js/dialogs/preview/preview.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-37" data-genuitec-path="/feicuiwb/src/main/webapp/admin/lib/js/dialogs/preview/preview.html">
+
+        </div>
+    </body>
+    <script>
+        document.getElementById('preview').innerHTML = editor.getContent();
+        uParse('#preview',{
+            rootPath : '../../',
+            chartContainerHeight:500
+        })
+        dialog.oncancel = function(){
+            document.getElementById('preview').innerHTML = '';
+        }
+    </script>
+</html>

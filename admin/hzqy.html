@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>合作企业</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/base.css"/>
+		<link rel="stylesheet" href="lib/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="lib/css/bootstrap-table.min.css"/>
+	<script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"8123",secure:"8124"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script><script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"8123",secure:"8124"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script><script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"8123",secure:"8124"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script><script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"8123",secure:"8124"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script><script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"8123",secure:"8124"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script></head>
+	<body data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-7" data-genuitec-path="/feicuiwb/src/main/webapp/admin/hzqy.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-8" data-genuitec-path="/feicuiwb/src/main/webapp/admin/hzqy.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-8" data-genuitec-path="/feicuiwb/src/main/webapp/admin/hzqy.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-8" data-genuitec-path="/feicuiwb/src/main/webapp/admin/hzqy.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-8" data-genuitec-path="/feicuiwb/src/main/webapp/admin/hzqy.html">
+		<div class="page-header" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-7" data-genuitec-path="/feicuiwb/src/main/webapp/admin/hzqy.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-8" data-genuitec-path="/feicuiwb/src/main/webapp/admin/hzqy.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-8" data-genuitec-path="/feicuiwb/src/main/webapp/admin/hzqy.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-8" data-genuitec-path="/feicuiwb/src/main/webapp/admin/hzqy.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-8" data-genuitec-path="/feicuiwb/src/main/webapp/admin/hzqy.html">
+			<h3>合作企业 <small>Cooperation</small></h3>
+		</div>
+		
+		<div id="topDiv" style="display: block;">
+			<div id="btnList">
+				<button class="btn btn-default" id="btnAdd">
+					<span class="glyphicon glyphicon-plus"></span> 新增
+				</button>
+			</div>
+			<table id="table"></table>
+		</div>
+		
+			<div id="editDiv" style="display: none;">
+			<label id="tip"></label>
+			<form class="form-horizontal" id="myForm" enctype='multipart/form-data'>
+				<input  style="display: none;" type="text" class="form-control" name="id" id="hideId">
+				<div class="form-group">
+			      <label for="name" class="col-sm-1 control-label">企业名称</label>
+			      <div class="col-sm-10">
+			    	<input type="text" class="form-control" id="name" placeholder="请输入企业名称" name="name">
+			      </div>
+			    </div>
+				<div class="form-group">
+				  <label for="description" class="col-sm-1 control-label">企业简介</label>
+				  <div class="col-sm-10">
+				    <input type="text" class="form-control" id="description" placeholder="请输入企业简介" name="description">
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label for="sequence" class="col-sm-1 control-label">排序</label>
+				  <div class="col-sm-10">
+				    <input type="text" class="form-control" id="sequence" placeholder="请输入排序" name="sequence">
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label for="picFile" class="col-sm-1 control-label">PC端企业logo</label>
+				  <div class="col-sm-10">
+				    <input type="file" class="form-control" id="picFile" name="picFile"/>
+				    <p class="help-block" style="color:red;">要求: 360px*240px</p>
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label for="mobilePicFile" class="col-sm-1 control-label">移动端企业logo</label>
+				  <div class="col-sm-10">
+				    <input type="file" class="form-control" id="mobilePicFile" name="mobilePicFile"/>
+				    <p class="help-block" style="color:red;">要求: 150px*100px</p>
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label for="url" class="col-sm-1 control-label">企业链接</label>
+				  <div class="col-sm-10">
+				    <input type="text" class="form-control" id="url" name="url"/>
+				  </div>
+				</div>
+			</form>
+			<br />
+			<div style="text-align: center;">
+				<button class="btn btn-danger" id="cancelBtn">取消</button>
+				<button class="btn btn-primary" id="commitBtn">提交</button>
+			</div>
+		</div>
+	
+		<script src="lib/js/jquery-1.9.1.js"></script>
+		<script src="lib/js/bootstrap.min.js"></script>
+		<script src="lib/js/bootstrap-table.min.js"></script>
+		<script src="lib/js/bootstrap-table-zh-CN.min.js"></script>
+		<script src="lib/js/jquery.form.min.js"></script>
+		<script src="js/hzqy.js"></script>
+	</body>
+</html>

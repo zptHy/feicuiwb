@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>新闻资讯</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/base.css"/>
+		<link rel="stylesheet" href="lib/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="lib/css/bootstrap-table.min.css"/>
+	<script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"8123",secure:"8124"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script><script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"8123",secure:"8124"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script><script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"8123",secure:"8124"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script><script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"8123",secure:"8124"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script><script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"8123",secure:"8124"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script></head>
+	<body data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-69" data-genuitec-path="/feicuiwb/src/main/webapp/admin/xwzx.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-71" data-genuitec-path="/feicuiwb/src/main/webapp/admin/xwzx.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-71" data-genuitec-path="/feicuiwb/src/main/webapp/admin/xwzx.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-71" data-genuitec-path="/feicuiwb/src/main/webapp/admin/xwzx.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-68" data-genuitec-path="/feicuiwb/src/main/webapp/admin/xwzx.html">
+		<div class="page-header" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-69" data-genuitec-path="/feicuiwb/src/main/webapp/admin/xwzx.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-71" data-genuitec-path="/feicuiwb/src/main/webapp/admin/xwzx.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-71" data-genuitec-path="/feicuiwb/src/main/webapp/admin/xwzx.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-71" data-genuitec-path="/feicuiwb/src/main/webapp/admin/xwzx.html" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-68" data-genuitec-path="/feicuiwb/src/main/webapp/admin/xwzx.html">
+			<h3>新闻资讯 <small>News</small></h3>
+		</div>
+		
+		<div id="topDiv" style="display: block;">
+			<div id="btnList">
+				<button class="btn btn-default" id="btnAdd">
+					<span class="glyphicon glyphicon-plus"></span> 新增
+				</button>
+			</div>
+			<table id="table"></table>
+		</div>
+		
+		<div id="editDiv" style="display: none;">
+			<label id="tip"></label>
+			<form class="form-horizontal" id="myForm" enctype='multipart/form-data'>
+				<input  style="display: none;" type="text" class="form-control" name="id" id="hideId">
+				<div class="form-group">
+			      <label for="type" class="col-sm-1 control-label">类型</label>
+			      <div class="col-sm-10">
+			      	<select id="type" name="type" class="form-control">
+			      		<option value="news">新闻</option>
+			      		<option value="activity">活动</option>
+			      	</select>
+			      </div>
+			    </div>
+				<div class="form-group">
+				  <label for="title" class="col-sm-1 control-label">标题</label>
+				  <div class="col-sm-10">
+				    <input type="text" class="form-control" id="title" placeholder="请输入标题" name="title">
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label for="desription" class="col-sm-1 control-label">简介</label>
+				  <div class="col-sm-10">
+				    <input type="text" class="form-control" id="description" placeholder="请输入简介" name="description">
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label for="desription" class="col-sm-1 control-label">关键字</label>
+				  <div class="col-sm-10">
+				    <input type="text" class="form-control" id="keywords" placeholder="请输入关键字" name="keywords">
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label for="resource" class="col-sm-1 control-label">来源</label>
+				  <div class="col-sm-10">
+				    <input type="text" class="form-control" id="resource" placeholder="请输入来源" name="resource">
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label for="author" class="col-sm-1 control-label">作者</label>
+				  <div class="col-sm-10">
+				    <input type="text" class="form-control" id="author" placeholder="请输入作者" name="author">
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label for="picFile" class="col-sm-1 control-label">PC端图片</label>
+				  <div class="col-sm-10">
+				    <input type="file" class="form-control" id="picFile" name="picFile"/>
+				    <p class="help-block" style="color:red">要求: 574px*333px</p>
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label for="mobilePicFile" class="col-sm-1 control-label">移动端图片</label>
+				  <div class="col-sm-10">
+				    <input type="file" class="form-control" id="mobilePicFile" name="mobilePicFile"/>
+				    <p class="help-block" style="color:red">要求: 700px*400px</p>
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label for="sequence" class="col-sm-1 control-label">排序</label>
+				  <div class="col-sm-10">
+				    <input type="text" class="form-control" id="sequence" placeholder="请输入排序" name="sequence">
+				  </div>
+				</div>
+				<input type="hidden" value="测试" class="form-control" id="content" placeholder="内容" name="content">
+			</form>
+			<!-- 加载编辑器的容器 -->
+			<div class="row">
+				<label style="text-align: right;" for="author" class="col-sm-1 control-label">内容</label>
+				<div class="col-sm-10">
+					<script style="height: 300px;" id="container" type="text/plain">
+						初始化。。。
+			    	</script>
+		    	</div>
+			</div>
+			<br />
+			<div style="text-align: center;">
+				<button class="btn btn-danger" id="cancelBtn">取消</button>
+				<button class="btn btn-primary" id="commitBtn">提交</button>
+			</div>
+		</div>
+	
+		<script src="lib/js/jquery-1.9.1.js"></script>
+		<script src="lib/js/bootstrap.min.js"></script>
+		<script src="lib/js/bootstrap-table.min.js"></script>
+		<script src="lib/js/bootstrap-table-zh-CN.min.js"></script>
+		<script src="lib/js/jquery.form.min.js"></script>
+		<script src="js/xwzx.js"></script>
+		
+		<!-- 配置文件 -->
+	    <script type="text/javascript" src="lib/js/ueditor.config.js"></script>
+	    <!-- 编辑器源码文件 -->
+	    <script type="text/javascript" src="lib/js/ueditor.all.js"></script>
+	    <!-- 实例化编辑器 -->
+	    <script type="text/javascript">
+	        var ue = UE.getEditor('container');
+	    </script>
+	</body>
+</html>

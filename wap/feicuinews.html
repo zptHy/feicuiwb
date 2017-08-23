@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>翡翠新闻</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="Keywords" content=""/>
+		<meta name="description" content=""/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/feicuinews.css"/>
+		<link rel="stylesheet" type="text/css" href="../front/css/swiper-3.4.2.min.css"/>
+		
+		<script>
+		 	(function (doc, win) {
+			    var docEl = doc.documentElement,
+			        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function () {
+					  var clientWidth = docEl.clientWidth;
+					  if (!clientWidth) return;
+					  // if (clientWidth>800){
+					  // 	docEl.style.fontSize = 800 / 11.25 + 'px';
+					  // }
+				     /*如果设计图为640就除以6.4 如果为750 就除以7.5*/
+				     /* 使用时设计图除以100 mate标签的缩放值为1 字体在电脑上看不出来*/
+					  else{docEl.style.fontSize =clientWidth / 7.5 + 'px';} 
+					  
+					};
+			    if (!doc.addEventListener) return;
+			    win.addEventListener(resizeEvt, recalc, false);
+			    doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+ 		</script>
+	</head>
+	<body>
+		<div class="containerWrap">
+			
+			<!--头部-->
+			<div id="header" style="width: 100%;height: 0.88rem; background: rgba(0,0,0,.5);"> </div>
+			
+			<!--导航-->
+			<div class="news_nav">
+				<div class="newLogo left borderBox">
+					<img src="img/feicuinews/newslogo.png"/>
+					
+				</div>
+				<div class="newsLink left borderBox">
+					
+					<a href="#">翡翠新闻</a> > <a href="#">官方</a>
+				</div>
+			</div>
+			
+			<!--新闻内容-->
+			<div class="news_content_wrap">
+				<div class="news_title">
+					<h1>翡翠新闻</h1>
+					<p>最新鲜的一手干货资讯</p>
+				</div>
+				
+				<div class="swiper-container newsSwiper">
+				  <div class="swiper-wrapper">
+				    
+				  </div>
+				  <!--数据模板-->
+				  <div class="swiper-model"  style="display: none;">
+					  <div class="swiper-slide">
+					  	<h3>$title$</h3>
+					  	<img class="swiper-lazy" data-src="img/feicuinews/newspic.png"/>
+					  </div>
+				  </div>
+				  
+				  <!-- 如果需要分页器 -->
+				  <div class="swiper-pagination"></div>
+				</div>
+
+				
+				<!--新闻列表-->
+				<div class="news_list">
+					
+				</div>
+				
+				<div class="newsTemplate" style="display: none;">
+					<div class="news_item clear" newId="$newId$" >
+						<img src="" class="left"/>
+						<div class="item_right borderBox right clear">
+							<p>$title$</p>
+							<div class="tip left">
+								$type$ 
+							</div>
+							<div class="messages right">
+								$msg$
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+			<div id="footer"></div>
+		</div>
+		<script src="lib/js/jquery-3.0.0.js"></script>
+		<script src="js/feicuinews.js"></script>
+		<script src="../front/js/swiper-3.4.2.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script>        
+			
+			var mySwiper03 = new Swiper('.newsSwiper',{
+				autoplay: 3000,				//可选选项，自动滑动
+			    direction: 'horizontal',
+				pagination : '.swiper-pagination',
+				paginationType : 'fraction',
+				lazyLoading : true,
+				lazyLoadingInPrevNext : true,
+				lazyLoadingInPrevNextAmount : 1,
+			    loop: true,
+			    initialSlide :0,
+			    observer:true,				//修改swiper自己或子元素时，自动初始化swiper
+			    observeParents:true			//修改swiper的父元素时，自动初始化swiper
+				//autoplay: 3000可选选项，自动滑动
+				//paginationType : 'progress',
+				//paginationType : 'custom',
+			});
+		</script>
+	</body>
+</html>

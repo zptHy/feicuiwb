@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>首页</title>
+		<meta name="description" content=""/>
+		<meta name="keywords" content=""/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="../front/css/swiper-3.4.2.min.css"/>
+		<script>
+	 	(function (doc, win) {
+			  var docEl = doc.documentElement,
+			    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+				recalc = function () {
+			  var clientWidth = docEl.clientWidth;
+			  if (!clientWidth) return;
+			  // if (clientWidth>800){
+			  // 	docEl.style.fontSize = 800 / 11.25 + 'px';
+			  // }
+		     /*如果设计图为640就除以6.4 如果为750 就除以7.5*/
+		     /* 使用时设计图除以100 mate标签的缩放值为1 字体在电脑上看不出来*/
+			  else{docEl.style.fontSize =clientWidth / 7.5+ 'px';}
+			};
+			  if (!doc.addEventListener) return;
+			  win.addEventListener(resizeEvt, recalc, false);
+			  doc.addEventListener('DOMContentLoaded', recalc, false);
+		})(document, window);
+ </script>
+	</head>
+	<body>
+		<div id="header"></div>
+		
+		<!--轮播图-->
+		<div class="swiper-container mySwiper01">
+			<div class="swiper-slide none"><img class="swiper-lazy" data-src=""/></div>
+		    <div class="swiper-wrapper">
+		        <!--轮播图后台获取数据-->
+		    </div>
+		    <!-- 如果需要分页器 -->
+		    <div class="swiper-pagination"></div>
+		</div>
+		
+		
+		<!--课程介绍-->
+		<div class="wrap introduce">
+			<h1>课程介绍</h1>	
+			<h6>联合海外教授独立研发</h6>
+		</div>
+		<div class="swiper-container mySwiper02">
+			<div class="swiper-slide none">
+	        	<img class="swiper-lazy" data-src="img/index/introduce01.png"/>
+	        	<div>
+	        		<h6></h6>
+	        		<p></p>
+	        		<h5>课程详情</h5>
+	        	</div>
+	        </div>
+		    <div class="swiper-wrapper">
+		        <!--课程介绍数据-->
+		    </div>
+		   
+		</div>
+		<div class="question">
+			<h3>课程咨询</h3>
+		</div>
+		
+		<div class="student_wrap">
+			<h1>学员视频</h1>
+			<h6>经验+Offer</h6>
+			<video id="my-video" class="video-js" controls  poster="" data-setup="{}">
+				
+				<source src="vedio/v2.mp4"></source>
+				<!--<source src="vedio/v1.mp4"></source>
+				<source src="vedio/v3.mp4"></source>-->
+				<!--<source src="vedio/mov_aaa.mp4"></source>-->
+				<!--<source src="vedio/mov_bbb.mp4"></source>-->
+			    <!--<source src="vedio/01~3.mp4"></source> 
+				<source src="vedio/v1.mp4"></source>
+				<source src="vedio/v2.mp4"></source>
+				<source src="vedio/v3.mp4"></source>-->
+			  </video>
+		</div>
+		
+		<div class="wrap introduce">
+			<h1>翡翠新闻</h1>	
+			<h6>最新鲜的一手干货资讯</h6>
+		</div>
+		
+		<div class="swiper-container mySwiper03">
+			<div class="swiper-slide none" newId="$newId$">					<!--新闻模板-->
+		    	<h3></h3>
+		    	<img class="swiper-lazy" />
+		    </div>
+			<div class="swiper-wrapper"></div>				<!--后台获取新闻-->
+															
+			<div class="swiper-pagination"></div>			<!-- 如果需要分页器 -->
+		</div>
+		
+		
+		<!--新闻列表-->
+		<div class="wrap xinwenList">
+			<dl class="wrap clear news none" newId="$newId$">
+				<dt class="left"><img /></dt>
+				<dd class="left">
+					<h3></h3>
+					<div class="clear">
+						<p></p>
+						<p><!--<span>999</span><span></span>--></p>
+					</div>
+				</dd>
+			</dl>
+			
+		</div>
+		
+		<div id="footer"></div>
+		
+		
+		
+		
+		
+		
+		<script src="lib/js/jquery-3.0.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../front/js/swiper-3.4.2.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

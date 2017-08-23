@@ -1,0 +1,584 @@
+[genuitec-file-id="wc1-77"],[genuitec-lp-path="/feicuiwb/src/main/webapp/front/css/index.css"],[genuitec-lp-enabled=false]{
+  /* for codelive */
+}
+
+/**课程介绍**翡翠新闻100%盒子**/
+.course,
+.news{
+	width:100%;
+	background: #f7f7f7;
+}
+/**就业学员**/
+.students{
+	width:100%;
+	background: #f0efef;
+}
+
+/**课程介绍+就业学员****头部整体**/
+.course .courseTitleAndBtn,
+.students .studentsTitleAndBtn{
+	position:relative;
+}
+/***课程介绍+就业学员+翡翠新闻***头部主标题**/
+.course  .courseTitle .mainTitle,
+.students  .studentsTitle .mainTitle,
+.news .newsTitle .mainTitle{
+	height:46px;
+	line-height:46px;
+	text-align:center;
+	font-size:36px;
+	padding-top:82px;
+	color:#434343;
+}
+
+/***课程介绍+就业学员***头部副主题**/
+.course  .courseTitle .subTitle,
+.students  .studentsTitle .subTitle
+{
+	line-height:34px;
+	height:34px;
+	text-align:center;
+	font-size:18px;
+	padding-bottom:45px;
+	color:#6d6d6d;
+}
+/***翡翠新闻***头部副标题**/
+.news .newsTitle .subTitle{
+	line-height:34px;
+	height:34px;
+	text-align:center;
+	font-size:18px;
+	padding-bottom:37px;
+	color:#6d6d6d;
+}
+/**课程介绍+就业学员***绿色按钮**/
+.course  .courseBtn,
+.students .studentsBtn{
+	width:125px;
+	height:32px;
+	border:1px solid #a3a3a3;
+	color:#a3a3a3;
+	background-color: rgba(1, 168, 63, 0);
+	text-align:center;
+	line-height:32px;
+	border-radius:4px;
+	font-size:14px;
+	position:absolute;
+	right:31px;
+	bottom:57px;
+	cursor:pointer;
+}
+/**翡翠新闻 ***绿色按钮**/
+.news .newsBtn{
+	width:125px;
+	height:32px;
+	border:1px solid #a3a3a3;
+	color:#a3a3a3;
+	background-color:  rgba(1, 168, 63, 0);
+	text-align:center;
+	line-height:32px;
+	border-radius:4px;
+	font-size:14px;
+	cursor:pointer;
+	margin-left:340px;
+	margin-bottom:58px;
+}
+/***课程介绍+就业学员+翡翠新闻***按钮鼠标悬停状态***/
+.courseBtn:hover,
+.studentsBtn:hover,
+.newsBtn:hover{
+	width:125px;
+	height:32px;
+	background-color: rgba(1, 168, 63, 1);
+	color:#fff;
+	border:1px solid #01a83f;
+}
+/**课程介绍的轮播图**/
+.course .courseIntroduction{
+	width:1100px;
+	height:390px;
+	position:relative;
+	
+}
+
+/************换页效果*****************/
+.course .courseIntrInner{
+	width: 1100px;
+	height:390px;
+	
+}
+/***每个li**/
+.course .courseIntroduction .courseIntrInner li{
+	background-color: #FFFFFF;
+	width:348px;
+	height:390px;
+	overflow:hidden;
+	position:relative;
+}
+.course .courseIntroduction .subject img{
+	width:346px;
+	height:258px;
+}
+.none{
+	display: none;
+}
+.course .clearfix{
+	overflow: hidden;
+	height: 390px;
+	position: absolute;
+	
+}
+/***箭头**/
+.courseIntrInner .arrow{
+	width:41px;
+	height:40px;
+	background-image:url(../img/index/arrow.png);
+}
+/*****/
+.courseIntrInner .prev{
+	z-index: 9;
+	position: absolute;
+	top: 50%;
+	left:-72px;
+	margin-top: -20px;
+	cursor: pointer;
+	background-position: -12px -72px;
+}
+.courseIntrInner .prev:hover{
+	width:41px;
+	height:40px;
+	background-image:url(../img/index/arrow.png);
+	background-position:-12px -18px;
+}
+.courseIntrInner .next{
+	z-index: 9;
+	position: absolute;
+	top: 50%;
+	right: -72px;
+	margin-top: -33px;
+	cursor: pointer;
+	background-position:-78px -72px;
+	
+}
+.courseIntrInner .next:hover{
+	width:41px;
+	height:40px;
+	background-image:url(../img/index/arrow.png);
+	background-position:-78px -18px;
+}
+.courseIntrInner .left{
+	left: 0px;
+}
+
+/*******/
+/*.leftArrow:hover{
+	position:absolute;
+	left:-72px;
+	top:174px;
+	background-position:-12px -18px;
+}
+.rightArrow{
+	position:absolute;
+	right:-72px;
+	top:174px;
+	background-position:-78px -72px;
+}
+.rightArrow:hover{
+	position:absolute;
+	right:-72px;
+	top:174px;
+	background-position:-78px -18px;
+}*/
+/***********************箭头结束**************************/
+/**翻页效果的点导航**/
+/**li右外边距**/
+
+.course .courseIntroduction li:nth-of-type(2){
+	margin: 0 28px;
+}
+
+.course .poster{
+	width:308px;
+	height:324px;
+	background: #fff;
+	overflow:hidden;
+	-webkit-box-shadow:0 0 3px 3px #d5ebdd;  
+  -moz-box-shadow:0 0 3px 3px #d5ebdd;  
+  box-shadow:0 0 3px 3px #d5ebdd;
+  position:absolute;
+  left:21px;
+  top:226px; 
+ 
+	
+}
+/**小横线**/
+.course .poster .posterTitleLine{
+	width:32px;
+	height:6px;
+	background:#434343;
+	margin:0 auto;
+	/*margin-top:24px;*/
+    margin-top:13px;
+}
+
+.course .posterMainTitle{
+	font-size:24px;
+	color:#434343;
+	text-align :center;
+	line-height:31px;
+	/*padding-top:20px;*/
+	padding-top:48px;
+}
+.course .posterSubsTitle{
+	font-size:14px;
+	color:#434343;
+	text-align:center;
+	line-height:19px;
+	padding-bottom:37px;
+}
+.course .posterTxt{
+	width:184px;
+	color:#434343;
+	margin:0 auto;
+	line-height:16px;
+	display:none;
+	font-size: 12px;
+}
+.course .posterBtn{
+	display:block;
+	width:152px;
+	height:37px;
+	line-height:37px;
+	text-align:center;
+	border:1px solid #01a83f;
+	border-radius:4px;
+	margin:0 auto;
+	margin-top:21px;
+	margin-bottom:44px;
+	color:#01a83f;
+	cursor:pointer;
+}
+/**课程介绍的换页点导航**/
+.course .courseIntrDot{
+	width:100%;
+	height:136px;
+	text-align:center;
+}
+.course .courseIntrDot .changePageNav{
+	width:17px;
+	height:11px;
+	cursor:pointer;
+	margin:60px 5px;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	background:url(../img/index/changePage.png);
+	background-position:-55px -7px;
+}
+
+.course .courseIntrDot .changePageNav.changeNavActive{
+	width:42px;
+	height:11px;
+	background-position:-8px -7px;
+}
+
+
+
+/**************************************课程介绍结束*********************************************/
+/***就业学员**/
+.students .studentsIntroduction{
+	height:450px;
+	padding-bottom:20px;
+	/*background: #0f0;*/
+}
+/*.students .studentsIntroduction li{
+	width:344px;
+	height:321px;
+	position:relative;
+	float:left;
+	margin-right:17px;
+	overflow:hidden;
+}
+.students .studentsIntroduction li:nth-child(1){
+	margin-left:17px;
+}
+.students .studentsIntroduction li:nth-child(3){
+	margin-right:17px;
+}
+.students .studentsIntroduction li img{
+	width:344px;
+	height:218px;
+}
+.students .studentsIntroduction li .studentsText{
+	width:334px;
+	height:103px;
+	overflow: hidden;
+}
+.students .studentsIntroduction li .studentsMainTitle{
+	font-size:18px;
+	color:#434343;
+	margin-left:24px;
+	margin-top:10px;
+	line-height:37px;
+	
+}
+.students .studentsIntroduction li .studentsSubsTitle,.studentsTxt{
+	font-size:12px;
+	color:#7e7e7e;
+	margin-left:24px;
+	line-height:20px;
+}
+.students .studentsIntroduction .worksBtn{
+	position:absolute;
+	right:16px;
+	bottom:12px;
+	color:#7e7e7e;
+	background:url(../img/index/works.png) no-repeat;
+	padding-left:22px;
+	cursor:pointer;
+}*/
+/****************************************翡翠新闻****************************************8**/
+
+
+/**新闻主要内容部分**/
+.news .newsContainer{
+	width:100%;
+	/*height: 685px;*/
+	overflow: hidden;
+
+}
+/**翡翠新闻的导航**/
+.news .newsContainer .newsTitleList{
+	width:494px;
+	float:left;
+}
+
+.news .newsBtn:hover{
+	background-color: rgba(1, 168, 63, 1);
+	color:#fff;
+}
+/**最新动态**/
+.lastestNews{
+	font-size:25px;
+	color:#77a8c6;
+	padding-left:74px;
+	line-height:40px;
+}
+.news .newsContainer .newsTitleList .taba{
+	border-radius:3px;
+	width:416px;
+	height:78px;
+	margin:12px 0px 12px 74px;
+	cursor:pointer;
+	background: url(../img/index/newsLine.png) no-repeat;
+}
+.news .newsContainer  .newsDate{
+	width:78px;
+	height:79px;
+	float:left;
+	padding-left:12px;
+}
+.news .newsContainer .listMonth{
+	font-size:44px;
+	color:#a3a3a3;
+	line-height:43px;
+	padding-top:4px;
+}
+.news .newsContainer .date{
+	font-size:20px;
+	color:#a3a3a3;
+	line-height:24px;
+}
+.news .newsContainer  .newsTitle{
+	width:320px;
+	height:73px;
+	float:left;
+	line-height:32px;
+	font-size:18px;
+	color:#666666;
+	padding-top:6px;
+}
+/**激活状态**/
+.tabhover{
+	background: #f7f7f7;
+	-webkit-box-shadow:0 0 10px 3px #d5ebdd;  
+    -moz-box-shadow:0 0 10px 3px #d5ebdd;  
+    box-shadow:0 0 10px 3px #d5ebdd;
+}
+/**翡翠新闻左侧新闻头部整体**/
+.newContentContainer{
+	width:606px;
+	float:left;
+	
+}
+
+/**翡翠新闻左侧新闻头部中间盒子***/
+.newsContent{
+	width:600px;
+	margin-left:12px;
+}
+.none{
+	display:none;
+}
+
+.newsContent .newsContentTitle{
+	height:113px;
+	
+}
+/**翡翠新闻左侧新闻头部日期**/
+.newsContent .newContentTitleDate{
+	width:208px;
+	height:80px;
+  border-right:1px solid #a4a4a4;
+	float:left;
+	position:relative;
+	overflow:hidden;
+	
+}
+/**新闻主要内容的标题部分**/
+.newsContent .newContentHead{
+	width:390px;
+	float:left;
+}
+/**新闻主要内容的标题文字部分**/
+.newsContent .newContentHeadTi{
+	color:#01a840;
+	font-size:24px;
+	padding-top:10px;
+	padding-left:20px;
+	line-height:28px;
+	overflow: hidden;
+}
+/**评论**/
+.newsContent .comment{
+	font-size:14px;
+	color:#c9c9c9;
+	margin-top:20px;
+	margin-left:298px;
+}
+.newsContent .commentNum{
+	padding-right:8px;
+	background: url(../img/index/chatPic.png) no-repeat;
+	padding-left:24px;
+}
+.newsContent .newContentTitleDate .titleMonth{
+	width:118px;
+	height:80px;
+	line-height:80px;
+	font-size:103px;
+	color:#a3a3a3;
+	position:absolute;
+	left:0;
+	top:-2px;
+	
+}
+.newContentTitleDate .titleYearAndDate .newsDate,
+.newContentTitleDate .titleYearAndDate .newsYear{
+	position:absolute;
+    font-size:30px;
+	color:#a3a3a3;
+}
+.newContentTitleDate .titleYearAndDate .newsDate{
+	left:137px;
+	top:-6px;
+}
+.newContentTitleDate .titleYearAndDate .newsYear{
+	left:127px;
+	top:42px;
+}
+.newsContent  .newsPic{
+	width:574px;
+	height:339px;
+}
+/**新闻内容**/
+.newsContentText{
+	font-size:14px;
+	line-height:26px;
+	padding-top:12px;
+	padding-bottom:120px;
+}
+
+/******在线报名*********/
+.enlistOnline{
+	width:100%;
+	height:603px;
+	background: #f00;
+	background: url(../img/index/beijing.jpg) no-repeat;
+	
+}
+.enlistOnline .enlistOnlineTitleBox{
+	width:100%;
+	text-align:center;
+	color:#fff;
+}
+.enlistOnline  .enlistOnlineTitleBox .enlistOnlineMTitle{
+	font-size:52px;
+	line-height:87px;
+	padding-top:41px;
+}
+.enlistOnline  .enlistOnlineTitleBox .enlistOnlineSTitle{
+	font-size:18px;
+	line-height:42px;
+	padding-bottom:45px;
+	
+}
+/**姓名输入框**/
+.enlistOnline .yourName{
+	width:588px;
+	height:88px;
+	background:#fff ;
+	border-radius:50px;
+	margin:0 auto;
+	margin-bottom:46px;
+	overflow:hidden;
+}
+.enlistOnline .yourPhone{
+	width:588px;
+	height:88px;
+	background:#fff ;
+	border-radius:50px;
+	margin:0 auto;
+	overflow:hidden;
+	
+}
+.enlistOnline .yourNameInner,.enlistOnline .yourPhoneInner{
+	width:510px;
+	height:28px;
+	margin:0 auto;
+	margin-top:27px;
+	
+	
+}
+.enlistOnline .nameLogo,.enlistOnline .phoneLogo{
+	height:28px;
+	width:49px;
+	border-right:1px solid #ababab;
+	float:left;
+	background: url(../img/index/tubiao_03.png) no-repeat left center;
+}
+.enlistOnline .phoneLogo{
+	background: url(../img/index/tubiao_07.png) no-repeat left center;
+}
+.enlistOnline .nameText,.enlistOnline .phoneText{
+	width:432px;
+	height:28px;
+	float:left;
+	border:0;
+	outline:none;
+	padding-left:24px;
+	font-size:18px;
+	
+}
+.enlistOnline .reservation{
+	width: 750px;
+	height:62px;
+	border-radius:50px;
+	background:#12a09e ;
+	margin:0 auto;
+	text-align:center;
+	line-height:62px;
+	color:#fff;
+	font-size:22px;
+	margin-top:57px;
+	cursor:pointer;
+}
